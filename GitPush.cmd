@@ -13,4 +13,4 @@ REM Commit các thay đổi với thông điệp mặc định
 git commit -m "Update from push_to_github.bat"
 
 REM Đẩy các thay đổi lên GitHub
-git push origin main
+git push -u origin main
