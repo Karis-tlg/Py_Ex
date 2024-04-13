@@ -8,7 +8,7 @@ def snt(n):
 
 def ktr(n, q):
     digits = [int(d) for d in str(n)]
-    a = sorted(digits)
+    a = sorted(set(digits))
     if q <= len(a):
         return a[q - 1]
     return -1
@@ -19,8 +19,11 @@ with open("SO-I.INP", "r") as f:
 
 a = ktr(N, Q)
 if a == -1:
-    print("-1")
+    out = "-1"
 elif snt(a):
-    print(a, "Yes")
+    out = f"{a} Yes"
 else:
-    print(a, "No")
+    out = f"{a} No"
+
+with open("SO-I.OUT", "w") as f:
+    f.write(out)
