@@ -1,2 +1,2 @@
 n = input("Nhập xâu n: ").split()
-print(" ".join(n))
+print(" ".join(n).lower().title())
