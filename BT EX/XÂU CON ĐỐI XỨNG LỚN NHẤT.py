@@ -1,5 +1,5 @@
 v = "AABAAOID"#8
-a = 0
+a, b = 0, ""
 
 for i in range(len(v)):
     for j in range(i , len(v)):
@@ -8,10 +8,10 @@ for i in range(len(v)):
         if vr == vr[::-1]:
             print(f"v[{i}:{j + 1}] = {v[i:j + 1]}")
             if len(vr) > a:
-                a = len(vr)
+                a, b = len(vr), vr
             #a = max(a, len(vr))
 
 if a == 0:
     print("Không có xâu đối xứng nào")
 else:
-    print("Xâu con đối xứng dài nhất là:", a)
+    print(f"Xâu con đx dài nhất là `{b}` có độ dài: {a}")
