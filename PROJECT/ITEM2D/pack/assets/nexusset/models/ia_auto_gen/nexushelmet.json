@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer1": "nexusset:armor/nexus_helmet_icon"
+	}
+}

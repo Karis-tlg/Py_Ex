@@ -1,0 +1,759 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "minecraft:item/leather_boots_quartz_trim",
+      "predicate": {
+        "trim_type": 0.1
+      }
+    },
+    {
+      "model": "minecraft:item/leather_boots_iron_trim",
+      "predicate": {
+        "trim_type": 0.2
+      }
+    },
+    {
+      "model": "minecraft:item/leather_boots_netherite_trim",
+      "predicate": {
+        "trim_type": 0.3
+      }
+    },
+    {
+      "model": "minecraft:item/leather_boots_redstone_trim",
+      "predicate": {
+        "trim_type": 0.4
+      }
+    },
+    {
+      "model": "minecraft:item/leather_boots_copper_trim",
+      "predicate": {
+        "trim_type": 0.5
+      }
+    },
+    {
+      "model": "minecraft:item/leather_boots_gold_trim",
+      "predicate": {
+        "trim_type": 0.6
+      }
+    },
+    {
+      "model": "minecraft:item/leather_boots_emerald_trim",
+      "predicate": {
+        "trim_type": 0.7
+      }
+    },
+    {
+      "model": "minecraft:item/leather_boots_diamond_trim",
+      "predicate": {
+        "trim_type": 0.8
+      }
+    },
+    {
+      "model": "minecraft:item/leather_boots_lapis_trim",
+      "predicate": {
+        "trim_type": 0.9
+      }
+    },
+    {
+      "model": "minecraft:item/leather_boots_amethyst_trim",
+      "predicate": {
+        "trim_type": 1
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "trim_type": 1,
+        "custom_model_data": 10000
+      },
+      "model": "nexusset:ia_auto_gen/nexussetboots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 1,
+        "custom_model_data": 10001
+      },
+      "model": "tools_armors_pack:ia_auto_gen/iridium_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 1,
+        "custom_model_data": 10002
+      },
+      "model": "tools_armors_pack:ia_auto_gen/malachite_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 1,
+        "custom_model_data": 10003
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amber_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 1,
+        "custom_model_data": 10004
+      },
+      "model": "tools_armors_pack:ia_auto_gen/amethyst_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 1,
+        "custom_model_data": 10005
+      },
+      "model": "tools_armors_pack:ia_auto_gen/mythril_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 1,
+        "custom_model_data": 10006
+      },
+      "model": "tools_armors_pack:ia_auto_gen/silver_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 1,
+        "custom_model_data": 10007
+      },
+      "model": "tools_armors_pack:ia_auto_gen/jade_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "trim_type": 1,
+        "custom_model_data": 10008
+      },
+      "model": "tools_armors_pack:ia_auto_gen/ruby_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10009
+      },
+      "model": "item/leather_boots"
+    }
+  ],
+  "textures": {
+    "layer0": "minecraft:item/leather_boots",
+    "layer1": "minecraft:item/leather_boots_overlay"
+  }
+}

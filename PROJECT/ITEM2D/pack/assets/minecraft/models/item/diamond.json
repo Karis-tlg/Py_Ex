@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/diamond"},"overrides":[{"predicate":{"custom_model_data":11000},"model":"viper_pack:viper/viper_helmet"},{"predicate":{"custom_model_data":11001},"model":"viper_pack:viper/viper_wings"},{"predicate":{"custom_model_data":11002},"model":"item/diamond"}]}

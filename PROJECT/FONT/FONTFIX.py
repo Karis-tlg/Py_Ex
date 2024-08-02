@@ -6,10 +6,9 @@ def convert_image(input_path):
     directory = os.path.dirname(input_path)
     filename, extension = os.path.splitext(os.path.basename(input_path))
     
-    original_image_path = input_path
     converted_image_path = os.path.join(directory, f"{filename}{extension}")  
     
-    image = Image.open(original_image_path).convert("RGBA")
+    image = Image.open(input_path).convert("RGBA")
     image_array = np.array(image)
 
     height, width, channels = image_array.shape
@@ -22,7 +21,7 @@ def convert_image(input_path):
     
     enlarged_image = Image.fromarray(enlarged_array, "RGBA")
 
-    enlarged_image.save(converted_image_path)
+    enlarged_image.save(input_path)
     
     print(f"Convert done: {converted_image_path}")
 
