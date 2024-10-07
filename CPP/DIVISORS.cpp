@@ -24,7 +24,7 @@ int tu(int n) {
 
 int main() {
     freopen("DIVISORS.INP", "r", stdin);
-    //freopen("DIVISORS.OUT", "w", stdout);
+    freopen("DIVISORS.OUT", "w", stdout);
 
     int n;
     cin >> n;
