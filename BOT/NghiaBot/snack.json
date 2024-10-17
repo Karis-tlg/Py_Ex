@@ -1,0 +1,14 @@
+{
+    "blacklist": [
+        {
+            "channel-id": ["1275476968334430339"]
+        }
+    ],
+    "whitelist": [
+        {
+            "name": ["CitizensCMD-2.7.1.jar"],
+            "block-global": "true",
+            "channel-id": ["1275716324118626356"]
+        }
+    ]
+}
