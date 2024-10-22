@@ -2,7 +2,7 @@
 #define LL long long
 using namespace std;
 
-LL uoc(LL n) {
+LL uoc(LL n) { 
     LL t = 0;
     for (int i = 1; i < sqrt(n); i++) {
         if (n % i == 0) {
