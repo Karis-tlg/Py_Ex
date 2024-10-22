@@ -143,4 +143,4 @@ async def info(interaction: discord.Interaction):
 
     await interaction.response.send_message(embed=embed)
 
-bot.run('MTIxNDEyMTkzMjAxOTA3MzA1NQ.GrUMQB.xesQ8IDFClX5nyO8ldOe3no855NAyzaIlsghoQ')
+bot.run('')
