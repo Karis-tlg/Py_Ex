@@ -1,0 +1,13 @@
+1587214792311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile1JUN2L"
+1587214807467	Marionette	INFO	Listening on port 58166
+1587214807582	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.openccc.net/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=5&cb=2142141694, line 1: unreachable code after return statement
+JavaScript warning: https://www.openccc.net/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=5&cb=2142141694, line 1: unreachable code after return statement
+JavaScript warning: https://www.openccc.net/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=5&cb=2142141694 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: can't access property "remove", this.browser.driver.dialogObserver is null
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: can't access property "remove", this.browser.driver.dialogObserver is null
+[Parent 6016, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1587214825376	Marionette	INFO	Stopped listening on port 58166
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

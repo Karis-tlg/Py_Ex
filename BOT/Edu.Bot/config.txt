@@ -1,0 +1,2 @@
+@hartbot.de
+2 captcha api key
