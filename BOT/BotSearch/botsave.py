@@ -39,4 +39,4 @@ async def on_ready():
 
     threading.Thread(target=console_input, daemon=True).start()
 
-client.run("MTIxNDEyMTkzMjAxOTA3MzA1NQ.GrUMQB.xesQ8IDFClX5nyO8ldOe3no855NAyzaIlsghoQ")
+client.run("")
