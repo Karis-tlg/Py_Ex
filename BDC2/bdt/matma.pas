@@ -1,0 +1,28 @@
+program MatMa;
+var
+        f: text;
+        d, ucln, bcnn: longint;
+        t,s,a: array[1..100] of longint;
+begin
+        assign(f,'D:\kha\bdt\in.txt');
+                reset(f);
+                readln(f, s[1], s[2], s[3]);
+                readln(f, a[1], a[2], a[3]);
+        close(f);
+
+        assign(f,'D:\kha\bdt\out.txt');
+                rewrite(f);
+                t[1]:= s[1] + s[2] + s[3];
+                t[2]:= a[1] + a[2] + a[3];
+                if t[1] > t[2] then
+                        d:=t[1]
+                else
+                        d:=t[2];
+                while ((t[1] mod d) <> 0) or ((t[2] mod d) <> 0) do
+                        d:=d-1;
+                ucln:=d;
+                bcnn:=(t[1]*t[2]) div ucln;
+
+                writeln(f, 'Mat ma khoa xe la: ', bcnn);
+        close(f);
+end.

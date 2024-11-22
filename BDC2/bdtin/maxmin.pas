@@ -1,0 +1,45 @@
+program minmax;
+uses crt;
+var r,i,n,a,b,c,e,j,d,min,max,t:longint;
+    s:array[1..1000] of int64;
+function ucln(a,b:int64): int64;
+begin
+    r:= a mod b;
+    while r <> 0 do
+    begin
+      a:=b;
+      b:=r;
+      r:=a mod b;
+    end;
+    ucln:=b;
+    for i:= 1 to n do
+    write('Nhap so thu ',i,': ');readln(s[i]);
+       for j:=i+1 to n do
+       if s[i] > s[j] then
+        begin
+        t:=s[i];
+        s[i]:=s[j];
+        s[j]:=t;
+        begin
+       max:=0;
+       min:=0;
+       For i:=1 to n do
+        begin
+       If max < s[i] then max := s[i];
+       If min > s[j] then min := s[j];
+        end;
+end;
+
+begin
+    clrscr;
+    writeln('Nhap so can tim UCLN: ');readln(a,b);
+    d:=ucln(a,b);
+    e:=ucln(c,d);
+    write('UCLN cua ',a,', ',b,' la: ',e);
+    writeln('Gia tri lon nhat la: ',max);
+    writeln('Gia tri be nhat la: ',min);
+    readln
+
+end.
+
+

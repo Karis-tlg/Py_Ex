@@ -1,0 +1,21 @@
+program bobi;
+var n, t, i, s: longint;
+    f: text;
+begin
+    assign(f,'D:\bd\input.txt');
+     reset(f);
+      readln(f,n);
+    close(f);
+    assign(f,'D:\bd\output.txt');
+     rewrite(f);
+      s:=1;
+      t:=1;
+     for i:=1 to n-1 do
+    begin
+       s:=s*2;
+       t:=t+s;
+    end;
+    write(f,'So bi trong hop sau ',n,' ngay la: ',t);
+    close(f);
+end.
+

@@ -1,13 +1,14 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
+from cogs.commands.owner import Owner
 
 intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
 
-bot = discord.Client(intents=intents)
-tree = app_commands.CommandTree(bot)
+bot = commands.Bot(command_prefix="!", intents=intents)
+tree = bot.tree
 
 @tree.command(
     name="hello",
@@ -19,8 +20,10 @@ async def first_command(interaction: discord.Interaction):
 
 @bot.event
 async def on_ready():
-    await tree.sync(guild=discord.Object(id=1275475899818442866)) 
+    await tree.sync(guild=discord.Object(id=1275475899818442866))
+    await tree.sync()
     print(f'Logged in as {bot.user} (ID: {bot.user.id})')
     print('------')
 
-bot.run('')
+bot.add_cog(Owner(bot))
+bot.run('MTI3NTQ2NjY5NTE4MzU2NDkyMQ.GU6joP.YyB8vLM75_bjlRroSXf6HpWb7cE1SCjqSqDnVM')

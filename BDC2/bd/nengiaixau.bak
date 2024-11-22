@@ -1,0 +1,29 @@
+program nengiaixau;
+var f:text;
+    kq, kt, s, x:string;
+    n, i, d:int64;
+begin
+    Assign(f,'D:\bd\B3IN');
+       Reset(f);
+       Readln(f,s);
+    Close(F);
+
+    Assign(f,'D:\bd\B3OUT');
+       Rewrite(f);
+          i:=1;
+       while i <= length(s) do
+          begin
+           d:=0;
+           kt:=s[i];
+           while s[i] = kt do
+            begin
+             d:=d+1;
+             i:=i+1;
+            end;
+          str(d,x);
+          if d = 2 then kq:=kq+x+kt else kq:=kq+x+kt;
+          end;
+    Close(f);
+       write(kq);
+end.
+

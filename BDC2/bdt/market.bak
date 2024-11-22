@@ -1,0 +1,34 @@
+program Market;
+
+var
+  n, M, i, j, max_value: integer;
+  W, V: array[1..100] of integer;
+  F: array[0..100, 0..100] of integer;
+  f: text;
+
+begin
+
+  assign(f, 'D:\kha\bdt\MARKET.INP');
+    reset(f);
+    readln(f, n, M);
+    for i := 1 to n do
+    readln(f, W[i], V[i]);
+  close(f);
+  for i := 1 to n do
+    for j := 0 to M do
+      begin
+        if W[i] > j then
+          F[i,j] := F[i-1,j]
+        else
+          F[i,j] := max(F[i-1,j], F[i-1,j-W[i]] + V[i]);
+      end;
+  max_value := F[n,M];
+
+  assign(f, 'D:\kha\bdt\MARKET.OUT');
+  rewrite(f);
+  if max_value = 0 then
+    writeln('-1')
+  else
+    writeln(f, max_value);
+  close(f);
+end.

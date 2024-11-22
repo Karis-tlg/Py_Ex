@@ -1,0 +1,23 @@
+Program hamUCLN;
+uses crt;
+Var x:int64;
+
+Function UCLN(a,b:int64):byte;
+   var r:int64;
+   Begin
+      while b <> 0 do 
+     
+      r:=a mod b;
+      a:=b;
+      b:=r;
+     
+      UCLN:=a;
+   End;
+
+BEGIN
+        Clrscr;
+        Write('Nhap so a: '); Readln(a);
+        write('Nhap so b: '); Readln(b);
+        Write('UCLN cua ',a,' va ',b,' la: ',UCLN);
+        Readln;
+END.

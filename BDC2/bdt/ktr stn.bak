@@ -1,0 +1,9 @@
+program ktrsnt;
+var i, n, j: longint;
+begin
+     write('nhap n: ');readln(n);
+     for i:=1 to n do
+     begin
+        while ((n mod i) = 0) or ((n mod 1) = n) do writeln(n,' ');
+     end;
+end.

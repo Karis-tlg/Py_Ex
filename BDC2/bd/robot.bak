@@ -1,0 +1,28 @@
+program robot;
+var f:text;
+    i, n, s: longint;
+    a:array[1..1000] of longint;
+begin
+    assign(f,'D:\bd\robot_in.txt');
+    reset(f);
+     readln(f,n);
+
+     for i:=1 to n do
+      read(f,a[i]);
+      s:=0;
+      for i:=1 to n do
+       begin
+         if a[i]=1 then s:=s+1
+           else s:=s-1;
+
+       end;
+    close(f);
+    assign(f,'D:\bd\robot_out.txt');
+     rewrite(f);
+      writeln(f,'Khoang cach cua robot la: ',s);
+    close(f);
+end.
+
+
+
+

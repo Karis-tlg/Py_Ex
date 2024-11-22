@@ -1,0 +1,33 @@
+program sntmax;
+var n, i, max:longint;
+    s:array[1..1000] of longint;
+    f:text;
+
+Function snt(x:int64):byte;
+  var j:int64;
+  begin
+   if x <= 1 then snt:=0 else
+    begin
+     j:=2;
+     while x mod i <> 0 do j:=j+1;
+      if j = x then snt:=1 else snt:=0;
+    end;
+  end;
+
+begin
+ Assign(f,'D:\bd\B2IN.txt');
+   Reset(f);
+   while not eof(f) do
+     n:=n+1;
+   Readln(f,s[n]);
+ Close(f);
+
+ Assign(f,'D:\bd\B2OUT.txt');
+   Rewrite(f);
+   max:=0;
+   for i:=1 to n do
+    if (snt(s[i])=1) and (s[i] > max)
+     then max:=s[i];
+    if max = 0 then write(f,'ko co snt') else write(f,'snt lon nhat la: ',max);
+ Close(f);
+end.

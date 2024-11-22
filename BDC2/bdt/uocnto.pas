@@ -1,0 +1,18 @@
+program uocnto;
+var i, n, j, t:longint;
+    f:text;
+    a:array[1..100] of longint;
+const fi = 'in.txt';
+      fo = 'out.txt';
+begin
+    assign(f,fi);
+        reset(f);
+        readln(f,n);
+    close(f);
+
+    assign(f,fo);
+        rewrite(f);
+        for i:=1 to n do if n mod i=0 then
+        write(f,i,' ');
+    close(f);
+end.

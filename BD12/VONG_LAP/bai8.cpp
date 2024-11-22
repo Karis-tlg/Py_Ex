@@ -37,4 +37,16 @@ int main() {
         cout << endl;
     }
     cout << endl;
+
+    //hinh 4
+    int dem = 1;
+    for (int i = 1; i <= n; ++i) {
+        int tam = dem;
+        for (int j = 1; j <= i; ++j) {
+            cout << tam << " ";
+            tam += (n - j);
+        }
+        cout << endl;
+        dem++;
+    }
 }

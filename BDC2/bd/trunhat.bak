@@ -1,0 +1,29 @@
+program trucnhat;
+var i, n, s, m, r, BC, BCNN, uc:longint;
+    f:text;
+Begin
+    Assign(f,'D:\bd\B1IN.txt');
+      Reset(f);
+      Read(f,n);
+      Read(f,m);
+    Close(f);
+
+    Assign(f,'D:\bd\B1OUT.txt');
+      Rewrite(f);
+      BC:=m*n;
+        while m <> n do
+          if m > n then m:=m-n else n:=n-m;
+            BCNN:=BC div m;
+      write(f,BCNN);
+
+      r:=n mod m;
+      while r <> 0 do;
+      begin
+        n:=m;
+        m:=r;
+        r:=n mod m;
+      end;
+      uc:=m;
+    Close(f);
+End.
+

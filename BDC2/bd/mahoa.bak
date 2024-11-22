@@ -1,0 +1,21 @@
+program mahoa;
+var i, n, c:longint;
+    s, kq:string;
+    f:text;
+Begin
+    Assign(f,'D:\bd\in.txt');
+      Reset(f);
+      Read(f,n);
+    Close(f);
+
+    Assign(f,'D:\bd\out.txt');
+      Rewrite(f);
+      kq:='';
+      for i:=1 to length(s) do
+        begin
+          val(s[i],n,c);
+          if c = 0 then kq:=kq+s[n];
+        end;
+      write(f,kq);
+      Close(f);
+End.

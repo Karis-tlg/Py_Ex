@@ -1,0 +1,19 @@
+program sobimat;
+var s:String;
+    f:text;
+    n,i,z,t:longint;
+Begin
+        Assign(f,'D:\bd\in.txt');
+        Reset(f);
+        Readln(f,s);
+        Close(f);
+        Assign(f,'D:\bd\out.txt');
+        Rewrite(f);
+        for i:=1 to length(s) do
+                Begin
+                        val((s[i]),n,z);
+                        If z=0 then t:=t+n;
+                End;
+        Writeln(f,t);
+        Close(f);
+End.

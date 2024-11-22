@@ -1,0 +1,17 @@
+program spow;
+var i, n, a, s, t: longint;
+    f: text;
+begin
+    Assign(f,'D:\kha\bdt\SPOW.INP');
+        Reset(f);
+        Read(f,a,n);
+    Close(f);
+
+    Assign(f,'D:\kha\bdt\SPOW.OUT');
+        Rewrite(f);
+        s:=a+n;
+        t:=a;
+        for i:=2 to n do t:=a*a;
+        Writeln(f,s,' ',t);
+    Close(f);
+End.

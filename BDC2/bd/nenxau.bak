@@ -1,0 +1,35 @@
+program nenxau;
+var t, k, n: int64;
+    i, d: int64;
+    f: text;
+    x: int64;
+    s:array[1..1000] of int64;
+
+begin
+    Assign(f,'D:\kha\bd\in.txt');
+       Reset(f);
+       Read(f,n);
+    Close(f);
+
+    Assign(f,'D:\kha\bd\out.txt');
+       Rewrite(f);
+       d:=1;
+       k:=#32;
+       n:=n+#32;
+       x:=s[1];
+        for i:=2 to length(s) do
+         if s[i]= s[i-1] then n:=n+1
+          else
+           begin
+            str(d,t);
+             if d <> 1 then k:=t+x
+              else k:=k+x;
+               d:=1;
+               x:=s[i];
+           end;
+        writeln(k);
+end.
+
+
+
+

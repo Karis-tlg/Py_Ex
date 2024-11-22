@@ -1,0 +1,18 @@
+program chiaqua;
+var  m, n, i:longint;
+                 f:text;
+Begin
+        Assign(f,'D:\bd\B2IN.txt');
+          Reset(f);
+          Readln(f,n);
+          Readln(f,m);
+        Close(f);
+
+        Assign(f,'D:\bd\B2OUT.txt');
+          Rewrite(f);
+           For i:=1 to m do
+             If (n mod i = 0) and (m mod i = 0) then
+               Writeln(f, i,' ',n div i,' ',m div i);
+        Close(f);
+End.
+
