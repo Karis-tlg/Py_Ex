@@ -56,4 +56,4 @@ async def send_user_message(msg):
     await webhook.send(msg.content, username=msg.author.display_name, avatar_url=str(msg.author.avatar))
     await webhook.delete()
 
-bot.run("MTExMzA4NjU4MDI4NzA3ODUxMQ.GjkCJp.HG01gOcVyKzWJKv9yxa9PuWEEbpjV-FCCpFYNY")  
+bot.run("")  

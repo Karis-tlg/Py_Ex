@@ -72,4 +72,4 @@ async def get_or_create_webhook(channel):
     webhook_cache[channel.id] = webhook
     return webhook
 
-bot.run("MTExMzA4NjU4MDI4NzA3ODUxMQ.GjkCJp.HG01gOcVyKzWJKv9yxa9PuWEEbpjV-FCCpFYNY")  # Thay thế bằng token của bạn
+bot.run("")  # Thay thế bằng token của bạn

@@ -26,4 +26,4 @@ async def on_ready():
     print('------')
 
 bot.add_cog(Owner(bot))
-bot.run('MTI3NTQ2NjY5NTE4MzU2NDkyMQ.GU6joP.YyB8vLM75_bjlRroSXf6HpWb7cE1SCjqSqDnVM')
+bot.run('')

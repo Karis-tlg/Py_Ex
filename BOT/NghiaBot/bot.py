@@ -182,4 +182,4 @@ async def sort_channels(ctx: SlashContext):
 
     await check_permissions_and_execute(ctx, sort_command)
 
-bot.run('', root_logger=True)
+bot.run("", root_logger=True)
