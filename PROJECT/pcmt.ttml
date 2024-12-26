@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="vi" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:06.540" style="s2">có kỹ năng phòng tránh tệ nạn ma túy ma</p>
+<p begin="00:00:04.049" end="00:00:09.179" style="s2">túy là tệ nạn xã hội nguy hiểm ảnh hưởng</p>
+<p begin="00:00:06.540" end="00:00:11.550" style="s2">đến toàn xã hội trong thời gian gần đây</p>
+<p begin="00:00:09.179" end="00:00:14.400" style="s2">có ngày càng nhiều người chưa thành niên</p>
+<p begin="00:00:11.550" end="00:00:16.920" style="s2">và trẻ em sử dụng ma túy thực trạng trên</p>
+<p begin="00:00:14.400" end="00:00:19.980" style="s2">đã Gióng lên hồi chuông cảnh báo về nguy</p>
+<p begin="00:00:16.920" end="00:00:21.720" style="s2">cơ mà túy xâm nhập học đường DD phòng tệ</p>
+<p begin="00:00:19.980" end="00:00:24.539" style="s2">nạn này cho chính bản thân học sinh</p>
+<p begin="00:00:21.720" end="00:00:27.810" style="s2">chúng ta hãy cùng tìm hiểu để phòng ngừa</p>
+<p begin="00:00:24.539" end="00:00:29.550" style="s2">và bảo vệ chính bản thân mình nhé một số</p>
+<p begin="00:00:27.810" end="00:00:32.040" style="s2">chất ma túy và chất gây nghiện thường</p>
+<p begin="00:00:29.550" end="00:00:34.410" style="s2">gặp Hiện nay có rất nhiều loại ma túy</p>
+<p begin="00:00:32.040" end="00:00:36.840" style="s2">chất kích thích chất gây nghiện mỗi loại</p>
+<p begin="00:00:34.410" end="00:00:40.440" style="s2">có hình dáng và tác hại khác nhau một số</p>
+<p begin="00:00:36.840" end="00:00:43.920" style="s2">loại có thể kể ra như cần sa cỏ Mỹ thuốc</p>
+<p begin="00:00:40.440" end="00:00:47.610" style="s2">lắc bóng cười shisha ma túy đá tem giấy</p>
+<p begin="00:00:43.920" end="00:00:51.239" style="s2">hay còn gọi là bùa lưỡi hậu quả của ma</p>
+<p begin="00:00:47.610" end="00:00:54.030" style="s2">túy làm cho hoạt động của hệ tiêu hóa hệ</p>
+<p begin="00:00:51.239" end="00:00:56.699" style="s2">hô hấp hệ tuần hoàn hệ thần kinh Bị suy</p>
+<p begin="00:00:54.030" end="00:00:59.460" style="s2">giảm xuất hiện các bệnh về da về dạ dày</p>
+<p begin="00:00:56.699" end="00:01:00.010" style="s2">đại tràng về tim mạch tình trạng nhiễm</p>
+<p begin="00:00:59.460" end="00:01:02.679" style="s2">độc mot</p>
+<p begin="00:01:00.010" end="00:01:05.920" style="s2">thí sinh Nhược toàn thân người gầy gò</p>
+<p begin="00:01:02.679" end="00:01:08.470" style="s2">xanh xao mắt trắng môi thâm nước da tái</p>
+<p begin="00:01:05.920" end="00:01:11.409" style="s2">sản dáng đi xiêu vẹo cơ thể suy kiệt</p>
+<p begin="00:01:08.470" end="00:01:14.500" style="s2">thức đêm ngủ ngày sức khỏe giảm sút rõ</p>
+<p begin="00:01:11.409" end="00:01:17.170" style="s2">rệt bị suy giảm sức lao động học tập</p>
+<p begin="00:01:14.500" end="00:01:20.080" style="s2">giảm sút hoặc mất khả năng lao động học</p>
+<p begin="00:01:17.170" end="00:01:23.289" style="s2">tập trường hợp sử dụng ma túy quá liều</p>
+<p begin="00:01:20.080" end="00:01:25.509" style="s2">có thể bị chết đột ngột người nghiện ma</p>
+<p begin="00:01:23.289" end="00:01:28.210" style="s2">túy thường có hội chứng quên loại thần</p>
+<p begin="00:01:25.509" end="00:01:30.310" style="s2">kinh sớm bị cảm giác hoang tưởng kích</p>
+<p begin="00:01:28.210" end="00:01:33.100" style="s2">động và hội chứng loạn thần kinh muộn</p>
+<p begin="00:01:30.310" end="00:01:35.920" style="s2">các rối loạn về nhận thức cảm xúc tâm</p>
+<p begin="00:01:33.100" end="00:01:37.840" style="s2">tính các biến đổi tình nhân cách có thể</p>
+<p begin="00:01:35.920" end="00:01:41.229" style="s2">còn những hành vi nguy hiểm cho bản thân</p>
+<p begin="00:01:37.840" end="00:01:43.360" style="s2">và người xung quanh tiêm chích ma túy</p>
+<p begin="00:01:41.229" end="00:01:46.720" style="s2">dùng chung bơm kim tiêm không tiệt trùng</p>
+<p begin="00:01:43.360" end="00:01:49.869" style="s2">dẫn đến lây nhiễm viêm gan B C Đặc biệt</p>
+<p begin="00:01:46.720" end="00:01:52.240" style="s2">là HIV AIDS dẫn đến cái chết nghiện ma</p>
+<p begin="00:01:49.869" end="00:01:54.880" style="s2">túy dẫn đến thoái hóa nhân cách rối loạn</p>
+<p begin="00:01:52.240" end="00:01:57.310" style="s2">hành vi Lối sống buông thả dễ vi phạm</p>
+<p begin="00:01:54.880" end="00:02:00.020" style="s2">pháp luật mâu thuẫn và bất hòa với bạn</p>
+<p begin="00:01:57.310" end="00:02:02.929" style="s2">bè thầy cô và gia đình mất lòng tin</p>
+<p begin="00:02:00.020" end="00:02:05.329" style="s2">ai dễ bị người khác lợi dụng học tập</p>
+<p begin="00:02:02.929" end="00:02:08.869" style="s2">giảm sút hoặc bảo học ảnh hưởng đến</p>
+<p begin="00:02:05.329" end="00:02:12.140" style="s2">tương lai biểu hiện của người nghiện ma</p>
+<p begin="00:02:08.869" end="00:02:14.480" style="s2">túy trong cặp sách tức hoặc túi quần áo</p>
+<p begin="00:02:12.140" end="00:02:18.709" style="s2">thường có dụng cụ sử dụng chất ma túy</p>
+<p begin="00:02:14.480" end="00:02:21.440" style="s2">như bật lửa kẹo cao su giấy bạc hay xin</p>
+<p begin="00:02:18.709" end="00:02:24.950" style="s2">ra ngoài đi vệ sinh trong giờ học ngồi</p>
+<p begin="00:02:21.440" end="00:02:27.319" style="s2">trong lớp hay ngủ gật thường đi học muộn</p>
+<p begin="00:02:24.950" end="00:02:31.010" style="s2">hoặc trốn học bỏ học bảo những dở nhất</p>
+<p begin="00:02:27.319" end="00:02:33.230" style="s2">định thường tụ tập ở nơi hẻo lánh ít</p>
+<p begin="00:02:31.010" end="00:02:36.110" style="s2">người qua lại lén lút sử dụng ma túy</p>
+<p begin="00:02:33.230" end="00:02:38.299" style="s2">trong nhà vệ sinh trường học thường hay</p>
+<p begin="00:02:36.110" end="00:02:41.150" style="s2">xin tiền bố mẹ nói dối là đóng tiền học</p>
+<p begin="00:02:38.299" end="00:02:44.390" style="s2">quỹ lớp lực học giảm sút hay ngáp vặt</p>
+<p begin="00:02:41.150" end="00:02:47.959" style="s2">ngủ gà ngủ gật hay cáu gắt ớn lạnh nổi</p>
+<p begin="00:02:44.390" end="00:02:50.720" style="s2">da gà buồn nôn mất ngủ trầm cảm ngại</p>
+<p begin="00:02:47.959" end="00:02:52.790" style="s2">tiếp xúc với người thân bạn tốt cố ý xa</p>
+<p begin="00:02:50.720" end="00:02:55.390" style="s2">lánh mọi người cố tránh các hoạt động</p>
+<p begin="00:02:52.790" end="00:02:55.390" style="s2">vui chơi lành mạnh</p>
+<p begin="00:02:55.510" end="00:03:02.829" style="s2">ở tình huống thường gặp kỹ năng phòng</p>
+<p begin="00:03:00.430" end="00:03:05.530" style="s2">tránh khi có người rủ rê Lôi kéo sử dụng</p>
+<p begin="00:03:02.829" end="00:03:10.480" style="s2">ma túy 2s mục mua bán vận chuyển ma túy</p>
+<p begin="00:03:05.530" end="00:03:13.120" style="s2">bạn cần phải làm gì bạn cần bình tĩnh có</p>
+<p begin="00:03:10.480" end="00:03:15.310" style="s2">thể dùng cách từ chối trực tiếp nếu như</p>
+<p begin="00:03:13.120" end="00:03:17.890" style="s2">từ chối không có tác dụng thì hãy dùng</p>
+<p begin="00:03:15.310" end="00:03:23.079" style="s2">những câu đáp lại như là tôi không dùng</p>
+<p begin="00:03:17.890" end="00:03:25.209" style="s2">ma túy và bất kỳ ai cũng vậy Mua bán vận</p>
+<p begin="00:03:23.079" end="00:03:29.140" style="s2">chuyển sử dụng ma túy là vi phạm pháp</p>
+<p begin="00:03:25.209" end="00:03:31.420" style="s2">luật trái với đạo đức con người trường</p>
+<p begin="00:03:29.140" end="00:03:35.769" style="s2">hợp mua bán vận chuyển ma túy có thể bị</p>
+<p begin="00:03:31.420" end="00:03:39.099" style="s2">tử hình Nếu bạn cứ bị ép buộc bạn có thể</p>
+<p begin="00:03:35.769" end="00:03:41.769" style="s2">lấy lý do để rời khỏi Nếu họ vẫn ép bạn</p>
+<p begin="00:03:39.099" end="00:03:44.290" style="s2">sử dụng ma túy thì cách tốt nhất là tìm</p>
+<p begin="00:03:41.769" end="00:03:46.389" style="s2">cách bỏ chạy Bạn hãy tìm cách chạy đến</p>
+<p begin="00:03:44.290" end="00:03:50.040" style="s2">một trong các địa điểm an toàn ở gần</p>
+<p begin="00:03:46.389" end="00:03:53.920" style="s2">nhất như là trường học nhà người quen</p>
+<p begin="00:03:50.040" end="00:03:55.490" style="s2">trụ sở công an trụ sở chính quyền quán</p>
+<p begin="00:03:53.920" end="00:03:57.290" style="s2">ăn ven đường ở</p>
+<p begin="00:03:55.490" end="00:04:00.230" style="s2">hai triệu có đông người lớn đang làm</p>
+<p begin="00:03:57.290" end="00:04:07.160" style="s2">việc các cảnh sát giao thông đang làm</p>
+<p begin="00:04:00.230" end="00:04:08.930" style="s2">nhiệm vụ trong trường hợp xấu nhất tìm</p>
+<p begin="00:04:07.160" end="00:04:11.690" style="s2">cách gọi điện thoại hoặc nhắn tin cho</p>
+<p begin="00:04:08.930" end="00:04:15.950" style="s2">cha mẹ người thân của cảnh sát 113 đến</p>
+<p begin="00:04:11.690" end="00:04:18.020" style="s2">hỗ trợ khi đã bị ép buộc mua bán vận</p>
+<p begin="00:04:15.950" end="00:04:20.570" style="s2">chuyển sử dụng ma túy thì không được</p>
+<p begin="00:04:18.020" end="00:04:23.150" style="s2">giấu diếm sự việc vừa xảy ra dùng bị hăm</p>
+<p begin="00:04:20.570" end="00:04:25.520" style="s2">dọa mà phải tố cáo ngay đối tượng đã rủ</p>
+<p begin="00:04:23.150" end="00:04:27.800" style="s2">rê và ép buộc với gia đình nhà trường</p>
+<p begin="00:04:25.520" end="00:04:32.510" style="s2">Công An Chính quyền địa phương để có</p>
+<p begin="00:04:27.800" end="00:04:34.550" style="s2">biện pháp xử lý ngăn chặn kịp thời không</p>
+<p begin="00:04:32.510" end="00:04:36.890" style="s2">là sợ trước những lời hàm giả của các</p>
+<p begin="00:04:34.550" end="00:04:39.650" style="s2">đối tượng mua bán ma túy mà phải tố cáo</p>
+<p begin="00:04:36.890" end="00:04:42.110" style="s2">chống kịp thời Vì khi đó mọi việc mới</p>
+<p begin="00:04:39.650" end="00:04:44.930" style="s2">được phơi bày em sẽ được gia đình nhà</p>
+<p begin="00:04:42.110" end="00:04:47.960" style="s2">trường thầy cô Pháp Luật quan tâm bảo vệ</p>
+<p begin="00:04:44.930" end="00:04:50.720" style="s2">và đối tượng rủ rê ép buộc mới bị xử lý</p>
+<p begin="00:04:47.960" end="00:04:52.760" style="s2">bích đắng chúng sẽ không có cơ hội để ép</p>
+<p begin="00:04:50.720" end="00:04:55.500" style="s2">buộc em mua bán vận chuyển hoặc sử dụng</p>
+<p begin="00:04:52.760" end="00:04:57.960" style="s2">ma túy ở</p>
+<p begin="00:04:55.500" end="00:05:02.340" style="s2">hai kỹ năng tổng chánh từ xa tệ nạn ma</p>
+<p begin="00:04:57.960" end="00:05:04.590" style="s2">túy sống trong sáng lành mạnh không đua</p>
+<p begin="00:05:02.340" end="00:05:08.400" style="s2">đòi tiêu xài hoang phí vượt quá khả năng</p>
+<p begin="00:05:04.590" end="00:05:13.470" style="s2">kinh tế của gia đình Tìm hiểu thông tin</p>
+<p begin="00:05:08.400" end="00:05:17.250" style="s2">về tác hại hậu quả của ma túy không tụ</p>
+<p begin="00:05:13.470" end="00:05:20.340" style="s2">tập với người xấu tham gia xây dựng môi</p>
+<p begin="00:05:17.250" end="00:05:22.260" style="s2">trường học tập lành mạnh tham gia các</p>
+<p begin="00:05:20.340" end="00:05:24.480" style="s2">buổi ngoại khóa tìm hiểu kiến thức về</p>
+<p begin="00:05:22.260" end="00:05:28.290" style="s2">tác hại của ma túy tại trường hoặc cộng</p>
+<p begin="00:05:24.480" end="00:05:31.080" style="s2">đồng không nhận tiền quà có giá trị của</p>
+<p begin="00:05:28.290" end="00:05:32.850" style="s2">người khác mà không rõ lý do trong</p>
+<p begin="00:05:31.080" end="00:05:35.160" style="s2">trường hợp người quen như vận chuyển</p>
+<p begin="00:05:32.850" end="00:05:38.070" style="s2">hàng hóa thì cần hỏi rõ loại hàng hóa</p>
+<p begin="00:05:35.160" end="00:05:41.550" style="s2">địa điểm và tốt nhất nên hỏi ý kiến Cha</p>
+<p begin="00:05:38.070" end="00:05:43.680" style="s2">Mẹ người thân trước khi nhận nơi gia</p>
+<p begin="00:05:41.550" end="00:05:53.070" style="s2">đình quan tâm sát sao lắng nghe tâm tư</p>
+<p begin="00:05:43.680" end="00:05:55.510" style="s2">của con Trẻ Không thử ma túy dù chỉ 1</p>
+<p begin="00:05:53.070" end="00:05:59.190" style="s2">lần ù</p>
+<p begin="00:05:55.510" end="00:05:59.190" style="s2">ừ ừ</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html id="app" lang="pt-BR" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Login - Spotify</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="/">
+  <link rel="icon" href="https://accounts.scdn.co/sso/images/favicon.ace4d8543bbb017893402a1e9d1ac1fa.ico">
+  <script defer src="https://accounts.scdn.co/sso/js/indexReact.47f8760d2bcbc63b1dd4.js" sp-bootstrap></script>
+  <meta id="bootstrap-data" sp-bootstrap-data='{"phoneFeatureEnabled":true,"previewEnabled":false,"user":false,"tpaState":"AQDzWwYnnx3sG15vmgkqvHOL98NJcgmfBsVyY1cCPt1vCyrgchFRMVmBNf1IODmUjBKhRmqCQJ5IGvMabJ3tysuZAzbJTcWHNhwHvmYwJF7D37wkEIaNufQ0yFDgwekK39qCnuJI8nYiSU611Op5opB/Cqpn+93Jf3Hz3QlYiK7jHACASyShSZHlRdfzaC0qlqPmBEvWOVf3Km4bQ116","geoLocationCountryCode":"VN","state":"","flowCtx":"60c2a3e3-551a-4371-8002-597db42ca333:1734967444","BON":["0","0",2063770698]}' sp-component="login" sp-translations-data='eyJlcnJvclRpdGxlIjoiRXJybyIsImxvZ2luVGl0bGUiOiJMb2dpbiIsImZvcmdvdFlvdXJQYXNzd29yZFVzZXJuYW1lIjoiRXNxdWVjZXUgc3VhIHNlbmhhPyIsImRvbnRIYXZlQW5BY2NvdW50IjoiTsOjbyB0ZW0gdW1hIGNvbnRhPyIsImlucHV0VXNlcm5hbWUiOiJFbmRlcmXDp28gZGUgZS1tYWlsIG91IG5vbWUgZGUgdXN1w6FyaW8iLCJpbnB1dEVtYWlsT3JVc2VybmFtZSI6IkUtbWFpbCBvdSBub21lIGRlIHVzdcOhcmlvIiwiaW5wdXRQYXNzd29yZCI6IlNlbmhhIiwiY2hlY2tib3hSZW1lbWJlck1lIjoiTGVtYnJhciBkZSBtaW0iLCJlcnJvckZvcm1EZWZhdWx0IjoiT3BzISBBbGdvIGRldSBlcnJhZG8uIFRlbnRlIGRlIG5vdm8gb3UgY29uc3VsdGUgYSBub3NzYSA8aGVscExpbms+c2XDp8OjbyBkZSBhanVkYTwvaGVscExpbms+LiIsImVycm9ySW52YWxpZENyZWRlbnRpYWxzIjoiTm9tZSBkZSB1c3XDoXJpbyBvdSBzZW5oYSBpbmNvcnJldG9zLiIsImVycm9ySW52YWxpZENyZWRlbnRpYWxzSW1wcm92ZWQiOiJFbmRlcmXDp28gZGUgZeKAkW1haWwsIG5vbWUgZGUgdXN1w6FyaW8gb3Ugc2VuaGEgaW5jb3JyZXRvcy4iLCJlcnJvclVua25vd24iOiJPcHMhIEFsZ28gZGV1IGVycmFkby4gVGVudGUgZGUgbm92byBvdSBjb25zdWx0ZSBhIG5vc3NhIDxoZWxwTGluaz5zZcOnw6NvIGRlIGFqdWRhPC9oZWxwTGluaz4uIiwiZXJyb3JUcmFuc2llbnQiOiJPY29ycmV1IHVtIGVycm8gYW8gcHJvY2Vzc2FyIHNldSBsb2dpbi4gVGVudGUgZGUgbm92by4iLCJlcnJvckZhY2Vib29rQWNjb3VudCI6Ik7Do28gaMOhIG5lbmh1bWEgY29udGEgZG8gU3BvdGlmeSB2aW5jdWxhZGEgw6Agc3VhIGNvbnRhIGRvIEZhY2Vib29rLiBTZSB2b2PDqiBqw6EgdGVtIHVtYSBjb250YSBkbyBTcG90aWZ5LCBmYcOnYSBsb2dpbiB1c2FuZG8gYXMgY3JlZGVuY2lhaXMgZGVsYS4gU2UgYWluZGEgbsOjbyB0ZW0sIDxsaW5rV2l0aEhyZWY+Y3JpZSB1bWE8L2xpbmtXaXRoSHJlZj4uIiwiZXJyb3JTZXJ2ZXJFcnJvciI6Ik9jb3JyZXUgdW0gZXJybyBhbyBwcm9jZXNzYXIgc3VhIHNvbGljaXRhw6fDo28uIFRlbnRlIGRlIG5vdm8uIiwiZXJyb3JVc2VybmFtZVJlcXVpcmVkIjoiSW5zaXJhIHNldSBub21lIGRlIHVzdcOhcmlvIG91IGVuZGVyZcOnbyBkZSBlLW1haWwgZG8gU3BvdGlmeS4iLCJlcnJvclVzZXJuYW1lSW52YWxpZENoYXJhY3RlcnMiOiJDYXJhY3RlcmVzIHByb2liaWRvcyB7Zm9yYmlkZGVuQ2hhcnN9IG5vIG5vbWUgZGUgdXN1w6FyaW8uIiwiZXJyb3JQYXNzd29yZFJlcXVpcmVkIjoiUG9yIGZhdm9yLCBpbnNpcmEgc3VhIHNlbmhhLiIsImVycm9yTm9JbnRlcm5ldENvbm5lY3Rpdml0eSI6IkVzdGFtb3MgY29tIHByb2JsZW1hcyBwYXJhIGNvbmVjdGFyLiBWZXJpZmlxdWUgc3VhIEludGVybmV0IGUge3RyeUFnYWluTGlua30uIiwiZXJyb3JUcnlBZ2FpbiI6InRlbnRlIGRlIG5vdm8iLCJsb2dJbiI6IkVudHJhciIsImxvZ0luVG9TcG90aWZ5IjoiRW50cmFyIG5vIFNwb3RpZnkiLCJzaWduVXBGb3JTcG90aWZ5IjoiSW5zY3JldmVyLXNlIG5vIFNwb3RpZnkiLCJvciI6Im91IiwibG9naW5Ub0NvbnRpbnVlIjoiUGFyYSBjb250aW51YXIsIGZhw6dhIGxvZ2luIG5vIFNwb3RpZnkuIiwiZXJyb3JWYWxpZGF0aW9uSW52YWxpZENvZGUiOiJFc3NlIGPDs2RpZ28gw6kgaW52w6FsaWRvLiBDb25zdWx0ZSBhIG1lbnNhZ2VtIFNNUyBlIHRlbnRlIGRlIG5vdm8uIiwiZXJyb3JWYWxpZGF0aW9uSW52YWxpZENvZGVHZW5lcmljIjoiRXNzZSBjw7NkaWdvIMOpIGludsOhbGlkby4gQ29uc3VsdGUgYSBtZW5zYWdlbSBlIHRlbnRlIGRlIG5vdm8uIiwiZXJyb3JTdWJtaXRUb29rVG9vTG9uZ1RvQ3JlYXRlIjoiU3VhIHNvbGljaXRhw6fDo28gbGV2b3UgdGVtcG8gZGVtYWlzIHBhcmEgc2VyIGNvbmNsdcOtZGEuIFRlbnRlIGRlIG5vdm8uIiwiZXJyb3JBcHBsZUFjY291bnQiOiJOw6NvIGjDoSBuZW5odW1hIGNvbnRhIGRvIFNwb3RpZnkgdmluY3VsYWRhIGFvIHNldSBJRMKgQXBwbGUuIFNlIHZvY8OqIGrDoSB0ZW0gdW1hIGNvbnRhIGRvIFNwb3RpZnksIGZhw6dhIGxvZ2luIHVzYW5kbyBvIHNldSBlLW1haWwgb3Ugbm9tZSBkZSB1c3XDoXJpbyBkbyBTcG90aWZ5LiBTZSBuw6NvLCBjcmllIHVtYSBjb250YSBubyBTcG90aWZ5LiIsImNvbnRpbnVlV2l0aEFwcGxlIjoiQ29udGludWFyIGNvbSBhIEFwcGxlIiwiY29udGludWVXaXRoRmFjZWJvb2siOiJDb250aW51YXIgY29tIG8gRmFjZWJvb2siLCJjb250aW51ZVdpdGhQaG9uZU51bWJlciI6IkNvbnRpbnVhciBjb20gdW0gbsO6bWVybyBkZSB0ZWxlZm9uZSIsImNvbnRpbnVlV2l0aEdvb2dsZSI6IkNvbnRpbnVhciBjb20gbyBHb29nbGUiLCJlcnJvckdvb2dsZUFjY291bnQiOiJOw6NvIGjDoSB1bWEgY29udGEgZG8gU3BvdGlmeSB2aW5jdWxhZGEgw6Agc3VhIENvbnRhIGRvIEdvb2dsZS4gU2Ugdm9jw6ogasOhIHRlbSB1bWEgY29udGEsIGVudHJlIHVzYW5kbyBzZXUgZS1tYWlsIG91IG5vbWUgZGUgdXN1w6FyaW8gZG8gU3BvdGlmeS4gU2UgbsOjbywgaW5zY3JldmEtc2Ugbm8gU3BvdGlmeS4iLCJyZWNhcHRjaGFMZWdhbE5vdGljZSI6IkVzdGUgc2l0ZSDDqSBwcm90ZWdpZG8gcGVsbyByZUNBUFRDSEEgZSBlc3TDoSBzdWplaXRvIMOgIDxnb29nbGVQcml2YWN5UG9saWN5TGluaz5Qb2zDrXRpY2EgZGUgUHJpdmFjaWRhZGU8L2dvb2dsZVByaXZhY3lQb2xpY3lMaW5rPiBlIGFvcyA8Z29vZ2xlVGVybXNMaW5rPlRlcm1vcyBkZSBTZXJ2acOnbzwvZ29vZ2xlVGVybXNMaW5rPiBkbyBHb29nbGUuIiwibG9naW5XaXRob3V0UGFzc3dvcmQiOiJFbnRyYXIgc2VtIHNlbmhhIiwibWFnaWNfbGlua19wb3B1cF9oZWFkZXIiOiJOw6NvIGNvbnNlZ3VlIGZhemVyIGxvZ2luPyIsIm1hZ2ljX2xpbmtfcG9wdXBfYm9keSI6IkVudmlhbW9zIHVtIGUtbWFpbCBjb20gdW0gbGluayBwYXJhIHZvY8OqIGVudHJhciBzZW0gc2VuaGEuIiwiZGlhbG9nX19hY3Rpb25fcmV0cnlfbG9naW4iOiJUZW50ZSBjb20gb3V0cmEgc2VuaGEiLCJkaWFsb2dGYWNlYm9va0Rpc2FsbG93ZWRUaXRsZSI6IkVzdGFtb3MgY29tIHByb2JsZW1hcyBwcmEgZmF6ZXIgc2V1IGxvZ2luIiwiZGlhbG9nRmFjZWJvb2tEaXNhbGxvd2VkQm9keSI6IlZhbW9zIGFqdWRhciB2b2PDqiBhIGRlZmluaXIgdW1hIHNlbmhhIHByYSB2b2x0YXIgYSBmYXplciBsb2dpbiBubyBTcG90aWZ5LiIsImRpYWxvZ0ZhY2Vib29rRGlzYWxsb3dlZEJ1dHRvbkNvbnRpbnVlIjoiQ29udGludWFyIiwiZGlhbG9nRmFjZWJvb2tEaXNhbGxvd2VkQnV0dG9uRGlzbWlzcyI6Iklnbm9yYXIiLCJjb250aW51ZSI6IkNvbnRpbnVhciIsImVycm9ySW52YWxpZENyZWRlbnRpYWxzUGFzc3dvcmRsZXNzIjoiTyBlLW1haWwgb3Ugbm9tZSBkZSB1c3XDoXJpbyBuw6NvIGVzdMOhIHZpbmN1bGFkbyBhIHVtYSBjb250YSBkbyBTcG90aWZ5In0='>
+  <style>
+    body {
+      background-color: #121212;
+      margin: 0;
+    }
+    #root {
+      min-height: 100vh;
+    }
+    .loading-indicator-container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .loading-indicator-container * {
+      box-sizing: border-box;
+    }
+    .loading-indicator {
+      content: "";
+      width: 56px;
+      inline-size: 56px;
+      block-size: 12.4px;
+      height: 12.4px;
+      overflow-clip-margin: content-box;
+      overflow: hidden;
+    }
+    .loading-indicator circle {
+      fill: white;
+      animation: loading-indicator-kf 1.32s linear infinite;
+      transform-origin: center center;
+      opacity: 0.5;
+    }
+    .loading-indicator circle:nth-of-type(2) {
+      animation-delay: 0.1s;
+    }
+    .loading-indicator circle:nth-of-type(3) {
+      animation-delay: 0.2s;
+    }
+    @keyframes loading-indicator-kf {
+      0% {
+        animation-timing-function: cubic-bezier(1, 0, 0.7, 1);
+        opacity: 0.5;
+        transform: scale(1);
+      }
+      40% {
+        animation-timing-function: cubic-bezier(0.3, 0, 0, 1);
+        opacity: 0.75;
+        transform: scale(1.3);
+      }
+      72.5% {
+        animation-timing-function: linear;
+        opacity: 0.5;
+        transform: scale(1);
+      }
+      100% {
+        opacity: 0.5;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body class="encore-dark-theme encore-layout-themes">
+<div id="root">
+  <div class="loading-indicator-container">
+    <svg class="loading-indicator" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1 100" xml:space="preserve" role="progressbar" aria-valuetext="Loading">
+      <circle stroke="none" cx="-140" cy="50" r="32"></circle>
+      <circle stroke="none" cx="0" cy="50" r="32"></circle>
+      <circle stroke="none" cx="140" cy="50" r="32"></circle>
+    </svg>
+  </div>
+</div>
+</body>
+</html>
+
