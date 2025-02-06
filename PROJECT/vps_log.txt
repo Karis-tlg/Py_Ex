@@ -1,0 +1,1423 @@
+2025-01-21 12:17:36,609 - Failed: Could not connect to 160.187.229.197:22 with user administrator - [Errno None] Unable to connect to port 22 on 160.187.229.197
+2025-01-21 12:19:14,157 - Failed: Could not connect to 160.187.229.197:22 with user administrator - [Errno None] Unable to connect to port 22 on 160.187.229.197
+2025-01-21 12:20:33,554 - Failed: SSH error for 160.187.229.197:3389 with user administrator - No existing session
+2025-01-21 12:20:38,553 - Exception (client): Error reading SSH protocol banner
+2025-01-21 12:20:38,553 - Traceback (most recent call last):
+2025-01-21 12:20:38,553 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 12:20:38,569 -     buf = self.packetizer.readline(timeout)
+2025-01-21 12:20:38,569 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 12:20:38,569 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 12:20:38,569 -     buf += self._read_timeout(timeout)
+2025-01-21 12:20:38,569 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 12:20:38,569 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 12:20:38,569 -     raise socket.timeout()
+2025-01-21 12:20:38,569 - TimeoutError
+2025-01-21 12:20:38,569 - 
+2025-01-21 12:20:38,569 - During handling of the above exception, another exception occurred:
+2025-01-21 12:20:38,569 - 
+2025-01-21 12:20:38,569 - Traceback (most recent call last):
+2025-01-21 12:20:38,569 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 12:20:38,569 -     self._check_banner()
+2025-01-21 12:20:38,569 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 12:20:38,569 -     raise SSHException(
+2025-01-21 12:20:38,569 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 12:20:38,569 - 
+2025-01-21 12:22:13,806 - Success: RDP is open on 160.187.229.197:3389
+2025-01-21 12:22:40,566 - Success: RDP is open on 160.187.229.197:3389
+2025-01-21 12:22:40,766 - Success: RDP is open on ducvps.servegame.com:4646
+2025-01-21 12:28:06,583 - Port 4442 is open on ducvps.servegame.com
+2025-01-21 12:28:08,591 - Port 4646 is open on ducvps.servegame.com
+2025-01-21 12:28:12,609 - Port 5040 is open on ducvps.servegame.com
+2025-01-21 12:28:15,622 - Port 5353 is open on ducvps.servegame.com
+2025-01-21 12:28:15,653 - Port 5382 is open on ducvps.servegame.com
+2025-01-21 12:28:16,610 - Port 5435 is open on ducvps.servegame.com
+2025-01-21 12:28:16,657 - Port 5463 is open on ducvps.servegame.com
+2025-01-21 12:28:26,685 - Port 6452 is open on ducvps.servegame.com
+2025-01-21 12:28:29,698 - Port 6741 is open on ducvps.servegame.com
+2025-01-21 12:29:26,818 - Port 12345 is open on ducvps.servegame.com
+2025-01-21 12:30:48,245 - Vps open on: ducvps.servegame.com:4442
+2025-01-21 12:30:50,292 - Vps open on: ducvps.servegame.com:4646
+2025-01-21 12:30:54,354 - Vps open on: ducvps.servegame.com:5040
+2025-01-21 12:30:57,401 - Vps open on: ducvps.servegame.com:5353
+2025-01-21 12:30:57,417 - Vps open on: ducvps.servegame.com:5382
+2025-01-21 12:30:58,401 - Vps open on: ducvps.servegame.com:5435
+2025-01-21 12:30:58,417 - Vps open on: ducvps.servegame.com:5463
+2025-01-21 12:31:08,557 - Vps open on: ducvps.servegame.com:6452
+2025-01-21 12:31:11,603 - Vps open on: ducvps.servegame.com:6741
+2025-01-21 12:32:08,474 - Vps open on: ducvps.servegame.com:12345
+2025-01-21 12:35:43,640 - Vps open on: ducvps.servegame.com:33333
+2025-01-21 12:35:43,671 - Vps open on: ducvps.servegame.com:33339
+2025-01-21 12:35:43,687 - Vps open on: ducvps.servegame.com:33336
+2025-01-21 12:35:47,765 - Vps open on: ducvps.servegame.com:33812
+2025-01-21 12:35:48,687 - Vps open on: ducvps.servegame.com:33814
+2025-01-21 12:35:48,780 - Vps open on: ducvps.servegame.com:33895
+2025-01-21 12:35:48,796 - Vps open on: ducvps.servegame.com:33894
+2025-01-21 12:35:49,796 - Vps open on: ducvps.servegame.com:33999
+2025-01-21 12:36:29,387 - Vps open on: ducvps.servegame.com:37891
+2025-01-21 12:36:44,620 - Vps open on: ducvps.servegame.com:39391
+2025-01-21 12:37:33,507 - Vps open on: ducvps.servegame.com:44141
+2025-01-21 12:37:36,554 - Vps open on: ducvps.servegame.com:44444
+2025-01-21 12:37:44,710 - Vps open on: ducvps.servegame.com:45321
+2025-01-21 12:37:46,710 - Vps open on: ducvps.servegame.com:45451
+2025-01-21 12:37:54,053 - Vps open on: ducvps.servegame.com:46211
+2025-01-21 12:38:29,582 - Vps open on: ducvps.servegame.com:49670
+2025-01-21 12:38:29,582 - Vps open on: ducvps.servegame.com:49668
+2025-01-21 12:38:29,582 - Vps open on: ducvps.servegame.com:49667
+2025-01-21 12:38:29,582 - Vps open on: ducvps.servegame.com:49665
+2025-01-21 12:38:29,597 - Vps open on: ducvps.servegame.com:49664
+2025-01-21 12:38:29,597 - Vps open on: ducvps.servegame.com:49666
+2025-01-21 12:38:56,002 - Vps open on: ducvps.servegame.com:52311
+2025-01-21 12:39:07,157 - Vps open on: ducvps.servegame.com:53389
+2025-01-21 12:39:07,157 - Vps open on: ducvps.servegame.com:53388
+2025-01-21 12:41:10,780 - Vps open on: ducvps.servegame.com:65616
+2025-01-21 12:41:11,768 - Vps open on: ducvps.servegame.com:65671
+2025-01-21 12:41:11,768 - Vps open on: ducvps.servegame.com:65675
+2025-01-21 12:41:14,828 - Vps open on: ducvps.servegame.com:65979
+2025-01-21 12:41:14,828 - Vps open on: ducvps.servegame.com:65981
+2025-01-21 12:41:18,908 - Vps open on: ducvps.servegame.com:66438
+2025-01-21 12:41:19,928 - Vps open on: ducvps.servegame.com:66448
+2025-01-21 12:41:44,326 - Vps open on: ducvps.servegame.com:68842
+2025-01-21 12:41:44,342 - Vps open on: ducvps.servegame.com:68870
+2025-01-21 12:41:46,359 - Vps open on: ducvps.servegame.com:69077
+2025-01-21 12:41:55,622 - Vps open on: ducvps.servegame.com:69978
+2025-01-21 12:41:57,668 - Vps open on: ducvps.servegame.com:70182
+2025-01-21 12:42:01,715 - Vps open on: ducvps.servegame.com:70576
+2025-01-21 12:42:04,793 - Vps open on: ducvps.servegame.com:70889
+2025-01-21 12:42:04,809 - Vps open on: ducvps.servegame.com:70918
+2025-01-21 12:42:05,777 - Vps open on: ducvps.servegame.com:70971
+2025-01-21 12:42:05,808 - Vps open on: ducvps.servegame.com:70999
+2025-01-21 12:42:18,964 - Vps open on: ducvps.servegame.com:72277
+2025-01-21 12:43:16,212 - Vps open on: ducvps.servegame.com:77881
+2025-01-21 12:46:47,772 - Vps open on: ducvps.servegame.com:98869
+2025-01-21 12:46:47,928 - Vps open on: ducvps.servegame.com:98872
+2025-01-21 12:46:47,928 - Vps open on: ducvps.servegame.com:98875
+2025-01-21 12:46:52,151 - Vps open on: ducvps.servegame.com:99350
+2025-01-21 12:46:52,151 - Vps open on: ducvps.servegame.com:99348
+2025-01-21 12:46:53,111 - Vps open on: ducvps.servegame.com:99430
+2025-01-21 12:46:53,127 - Vps open on: ducvps.servegame.com:99431
+2025-01-21 12:46:54,119 - Vps open on: ducvps.servegame.com:99535
+2025-01-21 12:47:00,176 - Scanning completed for ducvps.servegame.com. Open ports: 61, Closed ports: 95939
+2025-01-21 13:00:21,082 - Vps open on: ducvps.servegame.com:4442
+2025-01-21 13:00:23,122 - Vps open on: ducvps.servegame.com:4646
+2025-01-21 13:00:27,243 - Vps open on: ducvps.servegame.com:5040
+2025-01-21 13:00:30,194 - Vps open on: ducvps.servegame.com:5353
+2025-01-21 13:00:30,228 - Vps open on: ducvps.servegame.com:5382
+2025-01-21 13:00:31,125 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:00:31,125 - Traceback (most recent call last):
+2025-01-21 13:00:31,125 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:00:31,125 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:00:31,125 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:31,125 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:00:31,125 -     buf += self._read_timeout(timeout)
+2025-01-21 13:00:31,125 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:31,125 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:00:31,125 -     raise socket.timeout()
+2025-01-21 13:00:31,125 - TimeoutError
+2025-01-21 13:00:31,125 - 
+2025-01-21 13:00:31,125 - During handling of the above exception, another exception occurred:
+2025-01-21 13:00:31,125 - 
+2025-01-21 13:00:31,125 - Traceback (most recent call last):
+2025-01-21 13:00:31,125 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:00:31,125 -     self._check_banner()
+2025-01-21 13:00:31,125 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:00:31,125 -     raise SSHException(
+2025-01-21 13:00:31,125 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:00:31,125 - 
+2025-01-21 13:00:31,270 - Vps open on: ducvps.servegame.com:5463
+2025-01-21 13:00:31,270 - Vps open on: ducvps.servegame.com:5435
+2025-01-21 13:00:33,150 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:00:33,153 - Traceback (most recent call last):
+2025-01-21 13:00:33,153 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:00:33,153 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:00:33,153 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:33,153 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:00:33,153 -     buf += self._read_timeout(timeout)
+2025-01-21 13:00:33,153 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:33,153 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:00:33,153 -     raise socket.timeout()
+2025-01-21 13:00:33,153 - TimeoutError
+2025-01-21 13:00:33,153 - 
+2025-01-21 13:00:33,153 - During handling of the above exception, another exception occurred:
+2025-01-21 13:00:33,153 - 
+2025-01-21 13:00:33,153 - Traceback (most recent call last):
+2025-01-21 13:00:33,153 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:00:33,153 -     self._check_banner()
+2025-01-21 13:00:33,153 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:00:33,153 -     raise SSHException(
+2025-01-21 13:00:33,153 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:00:33,153 - 
+2025-01-21 13:00:37,165 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:00:37,165 - Traceback (most recent call last):
+2025-01-21 13:00:37,165 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:00:37,165 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:00:37,165 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:37,165 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:00:37,165 -     buf += self._read_timeout(timeout)
+2025-01-21 13:00:37,165 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:37,165 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:00:37,165 -     raise socket.timeout()
+2025-01-21 13:00:37,165 - TimeoutError
+2025-01-21 13:00:37,165 - 
+2025-01-21 13:00:37,165 - During handling of the above exception, another exception occurred:
+2025-01-21 13:00:37,165 - 
+2025-01-21 13:00:37,165 - Traceback (most recent call last):
+2025-01-21 13:00:37,165 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:00:37,165 -     self._check_banner()
+2025-01-21 13:00:37,165 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:00:37,165 -     raise SSHException(
+2025-01-21 13:00:37,165 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:00:37,165 - 
+2025-01-21 13:00:40,259 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:00:40,259 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:00:40,262 - Traceback (most recent call last):
+2025-01-21 13:00:40,262 - Traceback (most recent call last):
+2025-01-21 13:00:40,263 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:00:40,263 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:00:40,263 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:00:40,263 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:00:40,263 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:40,263 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:40,263 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:00:40,263 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:00:40,264 -     buf += self._read_timeout(timeout)
+2025-01-21 13:00:40,264 -     buf += self._read_timeout(timeout)
+2025-01-21 13:00:40,264 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:40,264 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:40,264 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:00:40,264 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:00:40,264 -     raise socket.timeout()
+2025-01-21 13:00:40,264 -     raise socket.timeout()
+2025-01-21 13:00:40,264 - TimeoutError
+2025-01-21 13:00:40,264 - TimeoutError
+2025-01-21 13:00:40,264 - 
+2025-01-21 13:00:40,264 - 
+2025-01-21 13:00:40,265 - During handling of the above exception, another exception occurred:
+2025-01-21 13:00:40,265 - During handling of the above exception, another exception occurred:
+2025-01-21 13:00:40,265 - 
+2025-01-21 13:00:40,265 - 
+2025-01-21 13:00:40,265 - Traceback (most recent call last):
+2025-01-21 13:00:40,265 - Traceback (most recent call last):
+2025-01-21 13:00:40,265 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:00:40,265 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:00:40,265 -     self._check_banner()
+2025-01-21 13:00:40,266 -     self._check_banner()
+2025-01-21 13:00:40,266 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:00:40,266 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:00:40,266 -     raise SSHException(
+2025-01-21 13:00:40,266 -     raise SSHException(
+2025-01-21 13:00:40,266 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:00:40,266 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:00:40,267 - 
+2025-01-21 13:00:40,267 - 
+2025-01-21 13:00:41,296 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:00:41,296 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:00:41,300 - Traceback (most recent call last):
+2025-01-21 13:00:41,300 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:00:41,300 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:00:41,300 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:41,300 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:00:41,300 -     buf += self._read_timeout(timeout)
+2025-01-21 13:00:41,300 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:41,300 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:00:41,301 - Traceback (most recent call last):
+2025-01-21 13:00:41,301 -     raise socket.timeout()
+2025-01-21 13:00:41,301 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:00:41,301 - TimeoutError
+2025-01-21 13:00:41,301 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:00:41,301 - 
+2025-01-21 13:00:41,302 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:41,302 - During handling of the above exception, another exception occurred:
+2025-01-21 13:00:41,302 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:00:41,302 - 
+2025-01-21 13:00:41,302 -     buf += self._read_timeout(timeout)
+2025-01-21 13:00:41,302 - Traceback (most recent call last):
+2025-01-21 13:00:41,302 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:41,302 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:00:41,302 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:00:41,302 -     self._check_banner()
+2025-01-21 13:00:41,302 -     raise socket.timeout()
+2025-01-21 13:00:41,302 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:00:41,302 - TimeoutError
+2025-01-21 13:00:41,303 -     raise SSHException(
+2025-01-21 13:00:41,303 - 
+2025-01-21 13:00:41,303 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:00:41,303 - During handling of the above exception, another exception occurred:
+2025-01-21 13:00:41,303 - 
+2025-01-21 13:00:41,303 - 
+2025-01-21 13:00:41,303 - Traceback (most recent call last):
+2025-01-21 13:00:41,303 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:00:41,303 -     self._check_banner()
+2025-01-21 13:00:41,303 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:00:41,303 -     raise SSHException(
+2025-01-21 13:00:41,303 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:00:41,304 - 
+2025-01-21 13:00:41,361 - Vps open on: ducvps.servegame.com:6452
+2025-01-21 13:00:44,415 - Vps open on: ducvps.servegame.com:6741
+2025-01-21 13:00:51,363 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:00:51,364 - Traceback (most recent call last):
+2025-01-21 13:00:51,364 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:00:51,364 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:00:51,364 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:51,364 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:00:51,364 -     buf += self._read_timeout(timeout)
+2025-01-21 13:00:51,364 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:51,364 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:00:51,364 -     raise socket.timeout()
+2025-01-21 13:00:51,364 - TimeoutError
+2025-01-21 13:00:51,364 - 
+2025-01-21 13:00:51,364 - During handling of the above exception, another exception occurred:
+2025-01-21 13:00:51,364 - 
+2025-01-21 13:00:51,364 - Traceback (most recent call last):
+2025-01-21 13:00:51,364 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:00:51,364 -     self._check_banner()
+2025-01-21 13:00:51,364 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:00:51,364 -     raise SSHException(
+2025-01-21 13:00:51,364 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:00:51,364 - 
+2025-01-21 13:00:54,457 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:00:54,458 - Traceback (most recent call last):
+2025-01-21 13:00:54,458 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:00:54,458 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:00:54,458 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:54,458 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:00:54,458 -     buf += self._read_timeout(timeout)
+2025-01-21 13:00:54,458 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:00:54,458 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:00:54,458 -     raise socket.timeout()
+2025-01-21 13:00:54,458 - TimeoutError
+2025-01-21 13:00:54,458 - 
+2025-01-21 13:00:54,458 - During handling of the above exception, another exception occurred:
+2025-01-21 13:00:54,458 - 
+2025-01-21 13:00:54,458 - Traceback (most recent call last):
+2025-01-21 13:00:54,458 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:00:54,458 -     self._check_banner()
+2025-01-21 13:00:54,458 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:00:54,458 -     raise SSHException(
+2025-01-21 13:00:54,458 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:00:54,458 - 
+2025-01-21 13:01:16,584 - Vps open on: ducvps.servegame.com:4442
+2025-01-21 13:01:18,577 - Vps open on: ducvps.servegame.com:4646
+2025-01-21 13:01:22,622 - Vps open on: ducvps.servegame.com:5040
+2025-01-21 13:01:25,718 - Vps open on: ducvps.servegame.com:5382
+2025-01-21 13:01:25,718 - Vps open on: ducvps.servegame.com:5353
+2025-01-21 13:01:26,515 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:01:26,515 - Traceback (most recent call last):
+2025-01-21 13:01:26,515 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:01:26,515 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:01:26,515 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:26,515 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:01:26,515 -     buf += self._read_timeout(timeout)
+2025-01-21 13:01:26,515 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:26,515 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:01:26,515 -     raise socket.timeout()
+2025-01-21 13:01:26,515 - TimeoutError
+2025-01-21 13:01:26,515 - 
+2025-01-21 13:01:26,515 - During handling of the above exception, another exception occurred:
+2025-01-21 13:01:26,515 - 
+2025-01-21 13:01:26,515 - Traceback (most recent call last):
+2025-01-21 13:01:26,515 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:01:26,515 -     self._check_banner()
+2025-01-21 13:01:26,515 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:01:26,515 -     raise SSHException(
+2025-01-21 13:01:26,515 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:01:26,515 - 
+2025-01-21 13:01:26,719 - Vps open on: ducvps.servegame.com:5435
+2025-01-21 13:01:26,719 - Vps open on: ducvps.servegame.com:5463
+2025-01-21 13:01:28,649 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:01:28,652 - Traceback (most recent call last):
+2025-01-21 13:01:28,652 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:01:28,652 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:01:28,652 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:28,652 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:01:28,652 -     buf += self._read_timeout(timeout)
+2025-01-21 13:01:28,652 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:28,652 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:01:28,652 -     raise socket.timeout()
+2025-01-21 13:01:28,652 - TimeoutError
+2025-01-21 13:01:28,652 - 
+2025-01-21 13:01:28,652 - During handling of the above exception, another exception occurred:
+2025-01-21 13:01:28,652 - 
+2025-01-21 13:01:28,652 - Traceback (most recent call last):
+2025-01-21 13:01:28,652 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:01:28,652 -     self._check_banner()
+2025-01-21 13:01:28,652 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:01:28,652 -     raise SSHException(
+2025-01-21 13:01:28,652 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:01:28,652 - 
+2025-01-21 13:01:32,649 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:01:32,649 - Traceback (most recent call last):
+2025-01-21 13:01:32,649 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:01:32,649 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:01:32,649 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:32,649 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:01:32,649 -     buf += self._read_timeout(timeout)
+2025-01-21 13:01:32,649 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:32,649 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:01:32,649 -     raise socket.timeout()
+2025-01-21 13:01:32,649 - TimeoutError
+2025-01-21 13:01:32,649 - 
+2025-01-21 13:01:32,649 - During handling of the above exception, another exception occurred:
+2025-01-21 13:01:32,649 - 
+2025-01-21 13:01:32,649 - Traceback (most recent call last):
+2025-01-21 13:01:32,649 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:01:32,649 -     self._check_banner()
+2025-01-21 13:01:32,649 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:01:32,649 -     raise SSHException(
+2025-01-21 13:01:32,649 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:01:32,649 - 
+2025-01-21 13:01:35,696 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:01:35,696 - Traceback (most recent call last):
+2025-01-21 13:01:35,696 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:01:35,696 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:01:35,696 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:35,696 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:01:35,696 -     buf += self._read_timeout(timeout)
+2025-01-21 13:01:35,696 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:35,696 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:01:35,696 -     raise socket.timeout()
+2025-01-21 13:01:35,696 - TimeoutError
+2025-01-21 13:01:35,696 - 
+2025-01-21 13:01:35,696 - During handling of the above exception, another exception occurred:
+2025-01-21 13:01:35,696 - 
+2025-01-21 13:01:35,696 - Traceback (most recent call last):
+2025-01-21 13:01:35,696 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:01:35,696 -     self._check_banner()
+2025-01-21 13:01:35,696 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:01:35,696 -     raise SSHException(
+2025-01-21 13:01:35,696 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:01:35,696 - 
+2025-01-21 13:01:35,712 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:01:35,712 - Traceback (most recent call last):
+2025-01-21 13:01:35,712 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:01:35,712 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:01:35,712 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:35,712 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:01:35,712 -     buf += self._read_timeout(timeout)
+2025-01-21 13:01:35,712 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:35,712 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:01:35,712 -     raise socket.timeout()
+2025-01-21 13:01:35,712 - TimeoutError
+2025-01-21 13:01:35,712 - 
+2025-01-21 13:01:35,712 - During handling of the above exception, another exception occurred:
+2025-01-21 13:01:35,712 - 
+2025-01-21 13:01:35,712 - Traceback (most recent call last):
+2025-01-21 13:01:35,712 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:01:35,712 -     self._check_banner()
+2025-01-21 13:01:35,712 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:01:35,712 -     raise SSHException(
+2025-01-21 13:01:35,712 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:01:35,712 - 
+2025-01-21 13:01:36,765 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:01:36,766 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:01:36,768 - Traceback (most recent call last):
+2025-01-21 13:01:36,769 - Traceback (most recent call last):
+2025-01-21 13:01:36,769 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:01:36,769 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:01:36,769 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:01:36,769 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:01:36,769 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:36,769 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:36,770 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:01:36,770 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:01:36,770 -     buf += self._read_timeout(timeout)
+2025-01-21 13:01:36,770 -     buf += self._read_timeout(timeout)
+2025-01-21 13:01:36,770 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:36,770 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:36,770 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:01:36,770 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:01:36,771 -     raise socket.timeout()
+2025-01-21 13:01:36,771 -     raise socket.timeout()
+2025-01-21 13:01:36,771 - TimeoutError
+2025-01-21 13:01:36,771 - TimeoutError
+2025-01-21 13:01:36,771 - 
+2025-01-21 13:01:36,771 - 
+2025-01-21 13:01:36,771 - During handling of the above exception, another exception occurred:
+2025-01-21 13:01:36,771 - During handling of the above exception, another exception occurred:
+2025-01-21 13:01:36,771 - 
+2025-01-21 13:01:36,771 - 
+2025-01-21 13:01:36,771 - Traceback (most recent call last):
+2025-01-21 13:01:36,771 - Traceback (most recent call last):
+2025-01-21 13:01:36,771 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:01:36,771 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:01:36,772 -     self._check_banner()
+2025-01-21 13:01:36,772 -     self._check_banner()
+2025-01-21 13:01:36,772 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:01:36,772 -     raise SSHException(
+2025-01-21 13:01:36,772 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:01:36,772 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:01:36,773 -     raise SSHException(
+2025-01-21 13:01:36,773 - 
+2025-01-21 13:01:36,773 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:01:36,773 - 
+2025-01-21 13:01:36,869 - Vps open on: ducvps.servegame.com:6452
+2025-01-21 13:01:39,877 - Vps open on: ducvps.servegame.com:6741
+2025-01-21 13:01:46,877 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:01:46,877 - Traceback (most recent call last):
+2025-01-21 13:01:46,877 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:01:46,877 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:01:46,877 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:46,877 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:01:46,877 -     buf += self._read_timeout(timeout)
+2025-01-21 13:01:46,877 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:46,877 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:01:46,877 -     raise socket.timeout()
+2025-01-21 13:01:46,877 - TimeoutError
+2025-01-21 13:01:46,877 - 
+2025-01-21 13:01:46,877 - During handling of the above exception, another exception occurred:
+2025-01-21 13:01:46,877 - 
+2025-01-21 13:01:46,877 - Traceback (most recent call last):
+2025-01-21 13:01:46,877 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:01:46,877 -     self._check_banner()
+2025-01-21 13:01:46,877 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:01:46,877 -     raise SSHException(
+2025-01-21 13:01:46,877 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:01:46,877 - 
+2025-01-21 13:01:49,830 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:01:49,830 - Traceback (most recent call last):
+2025-01-21 13:01:49,830 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:01:49,830 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:01:49,830 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:49,830 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:01:49,830 -     buf += self._read_timeout(timeout)
+2025-01-21 13:01:49,830 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:01:49,830 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:01:49,830 -     raise socket.timeout()
+2025-01-21 13:01:49,830 - TimeoutError
+2025-01-21 13:01:49,830 - 
+2025-01-21 13:01:49,830 - During handling of the above exception, another exception occurred:
+2025-01-21 13:01:49,830 - 
+2025-01-21 13:01:49,830 - Traceback (most recent call last):
+2025-01-21 13:01:49,830 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:01:49,830 -     self._check_banner()
+2025-01-21 13:01:49,830 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:01:49,830 -     raise SSHException(
+2025-01-21 13:01:49,830 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:01:49,830 - 
+2025-01-21 13:02:09,171 - Scanning completed for ducvps.servegame.com. VPS can connect: 0, VPS open but cannot connect: 9
+2025-01-21 13:07:59,041 - Vps open on: ducvps.servegame.com:4442
+2025-01-21 13:08:05,158 - Vps open on: ducvps.servegame.com:5040
+2025-01-21 13:08:08,164 - Vps open on: ducvps.servegame.com:5353
+2025-01-21 13:08:08,234 - Vps open on: ducvps.servegame.com:5382
+2025-01-21 13:08:09,100 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:08:09,100 - Traceback (most recent call last):
+2025-01-21 13:08:09,100 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:08:09,100 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:08:09,100 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:09,100 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:08:09,100 -     buf += self._read_timeout(timeout)
+2025-01-21 13:08:09,100 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:09,100 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:08:09,100 -     raise socket.timeout()
+2025-01-21 13:08:09,100 - TimeoutError
+2025-01-21 13:08:09,100 - 
+2025-01-21 13:08:09,100 - During handling of the above exception, another exception occurred:
+2025-01-21 13:08:09,100 - 
+2025-01-21 13:08:09,100 - Traceback (most recent call last):
+2025-01-21 13:08:09,100 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:08:09,100 -     self._check_banner()
+2025-01-21 13:08:09,100 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:08:09,100 -     raise SSHException(
+2025-01-21 13:08:09,100 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:08:09,100 - 
+2025-01-21 13:08:09,209 - Vps open on: ducvps.servegame.com:5463
+2025-01-21 13:08:09,209 - Vps open on: ducvps.servegame.com:5435
+2025-01-21 13:08:15,076 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:08:15,076 - Traceback (most recent call last):
+2025-01-21 13:08:15,076 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:08:15,076 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:08:15,076 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:15,076 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:08:15,076 -     buf += self._read_timeout(timeout)
+2025-01-21 13:08:15,076 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:15,076 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:08:15,076 -     raise socket.timeout()
+2025-01-21 13:08:15,076 - TimeoutError
+2025-01-21 13:08:15,076 - 
+2025-01-21 13:08:15,076 - During handling of the above exception, another exception occurred:
+2025-01-21 13:08:15,076 - 
+2025-01-21 13:08:15,076 - Traceback (most recent call last):
+2025-01-21 13:08:15,076 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:08:15,076 -     self._check_banner()
+2025-01-21 13:08:15,076 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:08:15,076 -     raise SSHException(
+2025-01-21 13:08:15,076 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:08:15,076 - 
+2025-01-21 13:08:18,186 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:08:18,191 - Traceback (most recent call last):
+2025-01-21 13:08:18,191 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:08:18,191 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:08:18,191 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:18,191 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:08:18,191 -     buf += self._read_timeout(timeout)
+2025-01-21 13:08:18,192 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:18,192 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:08:18,192 -     raise socket.timeout()
+2025-01-21 13:08:18,192 - TimeoutError
+2025-01-21 13:08:18,192 - 
+2025-01-21 13:08:18,192 - During handling of the above exception, another exception occurred:
+2025-01-21 13:08:18,192 - 
+2025-01-21 13:08:18,192 - Traceback (most recent call last):
+2025-01-21 13:08:18,192 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:08:18,192 -     self._check_banner()
+2025-01-21 13:08:18,192 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:08:18,192 -     raise SSHException(
+2025-01-21 13:08:18,192 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:08:18,192 - 
+2025-01-21 13:08:18,220 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:08:18,223 - Traceback (most recent call last):
+2025-01-21 13:08:18,223 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:08:18,223 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:08:18,223 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:18,223 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:08:18,223 -     buf += self._read_timeout(timeout)
+2025-01-21 13:08:18,223 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:18,223 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:08:18,224 -     raise socket.timeout()
+2025-01-21 13:08:18,224 - TimeoutError
+2025-01-21 13:08:18,224 - 
+2025-01-21 13:08:18,224 - During handling of the above exception, another exception occurred:
+2025-01-21 13:08:18,224 - 
+2025-01-21 13:08:18,224 - Traceback (most recent call last):
+2025-01-21 13:08:18,224 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:08:18,224 -     self._check_banner()
+2025-01-21 13:08:18,224 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:08:18,224 -     raise SSHException(
+2025-01-21 13:08:18,225 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:08:18,225 - 
+2025-01-21 13:08:19,223 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:08:19,226 - Traceback (most recent call last):
+2025-01-21 13:08:19,226 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:08:19,226 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:08:19,227 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:19,227 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:08:19,227 -     buf += self._read_timeout(timeout)
+2025-01-21 13:08:19,227 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:19,227 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:08:19,227 -     raise socket.timeout()
+2025-01-21 13:08:19,227 - TimeoutError
+2025-01-21 13:08:19,227 - 
+2025-01-21 13:08:19,227 - During handling of the above exception, another exception occurred:
+2025-01-21 13:08:19,227 - 
+2025-01-21 13:08:19,227 - Traceback (most recent call last):
+2025-01-21 13:08:19,227 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:08:19,227 -     self._check_banner()
+2025-01-21 13:08:19,228 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:08:19,228 -     raise SSHException(
+2025-01-21 13:08:19,228 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:08:19,228 - 
+2025-01-21 13:08:19,256 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:08:19,256 - Traceback (most recent call last):
+2025-01-21 13:08:19,256 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:08:19,256 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:08:19,256 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:19,256 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:08:19,256 -     buf += self._read_timeout(timeout)
+2025-01-21 13:08:19,256 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:19,256 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:08:19,256 -     raise socket.timeout()
+2025-01-21 13:08:19,256 - TimeoutError
+2025-01-21 13:08:19,256 - 
+2025-01-21 13:08:19,256 - During handling of the above exception, another exception occurred:
+2025-01-21 13:08:19,256 - 
+2025-01-21 13:08:19,256 - Traceback (most recent call last):
+2025-01-21 13:08:19,256 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:08:19,256 -     self._check_banner()
+2025-01-21 13:08:19,256 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:08:19,256 -     raise SSHException(
+2025-01-21 13:08:19,256 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:08:19,256 - 
+2025-01-21 13:08:19,272 - Vps open on: ducvps.servegame.com:6452
+2025-01-21 13:08:22,321 - Vps open on: ducvps.servegame.com:6741
+2025-01-21 13:08:29,262 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:08:29,262 - Traceback (most recent call last):
+2025-01-21 13:08:29,262 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:08:29,262 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:08:29,262 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:29,262 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:08:29,262 -     buf += self._read_timeout(timeout)
+2025-01-21 13:08:29,262 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:29,262 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:08:29,262 -     raise socket.timeout()
+2025-01-21 13:08:29,262 - TimeoutError
+2025-01-21 13:08:29,262 - 
+2025-01-21 13:08:29,262 - During handling of the above exception, another exception occurred:
+2025-01-21 13:08:29,262 - 
+2025-01-21 13:08:29,262 - Traceback (most recent call last):
+2025-01-21 13:08:29,262 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:08:29,262 -     self._check_banner()
+2025-01-21 13:08:29,262 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:08:29,262 -     raise SSHException(
+2025-01-21 13:08:29,262 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:08:29,262 - 
+2025-01-21 13:08:32,272 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:08:32,272 - Traceback (most recent call last):
+2025-01-21 13:08:32,272 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:08:32,272 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:08:32,272 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:32,272 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:08:32,272 -     buf += self._read_timeout(timeout)
+2025-01-21 13:08:32,272 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:08:32,272 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:08:32,272 -     raise socket.timeout()
+2025-01-21 13:08:32,272 - TimeoutError
+2025-01-21 13:08:32,272 - 
+2025-01-21 13:08:32,272 - During handling of the above exception, another exception occurred:
+2025-01-21 13:08:32,272 - 
+2025-01-21 13:08:32,272 - Traceback (most recent call last):
+2025-01-21 13:08:32,272 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:08:32,272 -     self._check_banner()
+2025-01-21 13:08:32,272 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:08:32,272 -     raise SSHException(
+2025-01-21 13:08:32,272 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:08:32,272 - 
+2025-01-21 13:08:51,424 - Scanning completed for ducvps.servegame.com. VPS can connect: 0, VPS open but cannot connect: 8
+2025-01-21 13:17:46,081 - Vps open on: ducvps.servegame.com:4442
+2025-01-21 13:17:50,083 - Vps open on: ducvps.servegame.com:4646
+2025-01-21 13:17:56,031 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:17:56,035 - Traceback (most recent call last):
+2025-01-21 13:17:56,035 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:17:56,035 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:17:56,035 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:17:56,035 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:17:56,035 -     buf += self._read_timeout(timeout)
+2025-01-21 13:17:56,035 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:17:56,035 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:17:56,035 -     raise socket.timeout()
+2025-01-21 13:17:56,049 - TimeoutError
+2025-01-21 13:17:56,049 - 
+2025-01-21 13:17:56,050 - During handling of the above exception, another exception occurred:
+2025-01-21 13:17:56,050 - 
+2025-01-21 13:17:56,050 - Traceback (most recent call last):
+2025-01-21 13:17:56,050 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:17:56,050 -     self._check_banner()
+2025-01-21 13:17:56,050 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:17:56,050 -     raise SSHException(
+2025-01-21 13:17:56,050 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:17:56,050 - 
+2025-01-21 13:17:58,095 - Vps open on: ducvps.servegame.com:5040
+2025-01-21 13:18:00,048 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:18:00,050 - Traceback (most recent call last):
+2025-01-21 13:18:00,050 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:18:00,050 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:18:00,050 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:00,050 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:18:00,050 -     buf += self._read_timeout(timeout)
+2025-01-21 13:18:00,050 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:00,050 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:18:00,050 -     raise socket.timeout()
+2025-01-21 13:18:00,050 - TimeoutError
+2025-01-21 13:18:00,050 - 
+2025-01-21 13:18:00,050 - During handling of the above exception, another exception occurred:
+2025-01-21 13:18:00,050 - 
+2025-01-21 13:18:00,050 - Traceback (most recent call last):
+2025-01-21 13:18:00,050 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:18:00,050 -     self._check_banner()
+2025-01-21 13:18:00,050 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:18:00,050 -     raise SSHException(
+2025-01-21 13:18:00,050 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:18:00,050 - 
+2025-01-21 13:18:04,180 - Vps open on: ducvps.servegame.com:5353
+2025-01-21 13:18:04,218 - Vps open on: ducvps.servegame.com:5382
+2025-01-21 13:18:06,120 - Vps open on: ducvps.servegame.com:5463
+2025-01-21 13:18:06,205 - Vps open on: ducvps.servegame.com:5435
+2025-01-21 13:18:08,125 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:18:08,127 - Traceback (most recent call last):
+2025-01-21 13:18:08,128 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:18:08,128 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:18:08,128 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:08,128 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:18:08,129 -     buf += self._read_timeout(timeout)
+2025-01-21 13:18:08,129 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:08,129 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:18:08,129 -     raise socket.timeout()
+2025-01-21 13:18:08,130 - TimeoutError
+2025-01-21 13:18:08,130 - 
+2025-01-21 13:18:08,130 - During handling of the above exception, another exception occurred:
+2025-01-21 13:18:08,130 - 
+2025-01-21 13:18:08,130 - Traceback (most recent call last):
+2025-01-21 13:18:08,130 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:18:08,130 -     self._check_banner()
+2025-01-21 13:18:08,130 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:18:08,131 -     raise SSHException(
+2025-01-21 13:18:08,131 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:18:08,131 - 
+2025-01-21 13:18:14,113 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:18:14,116 - Traceback (most recent call last):
+2025-01-21 13:18:14,116 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:18:14,116 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:18:14,116 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:14,116 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:18:14,116 -     buf += self._read_timeout(timeout)
+2025-01-21 13:18:14,116 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:14,116 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:18:14,116 -     raise socket.timeout()
+2025-01-21 13:18:14,116 - TimeoutError
+2025-01-21 13:18:14,116 - 
+2025-01-21 13:18:14,116 - During handling of the above exception, another exception occurred:
+2025-01-21 13:18:14,116 - 
+2025-01-21 13:18:14,116 - Traceback (most recent call last):
+2025-01-21 13:18:14,116 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:18:14,116 -     self._check_banner()
+2025-01-21 13:18:14,116 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:18:14,116 -     raise SSHException(
+2025-01-21 13:18:14,116 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:18:14,116 - 
+2025-01-21 13:18:14,214 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:18:14,215 - Traceback (most recent call last):
+2025-01-21 13:18:14,215 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:18:14,215 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:18:14,215 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:14,215 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:18:14,215 -     buf += self._read_timeout(timeout)
+2025-01-21 13:18:14,215 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:14,215 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:18:14,215 -     raise socket.timeout()
+2025-01-21 13:18:14,215 - TimeoutError
+2025-01-21 13:18:14,215 - 
+2025-01-21 13:18:14,215 - During handling of the above exception, another exception occurred:
+2025-01-21 13:18:14,215 - 
+2025-01-21 13:18:14,215 - Traceback (most recent call last):
+2025-01-21 13:18:14,215 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:18:14,215 -     self._check_banner()
+2025-01-21 13:18:14,215 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:18:14,215 -     raise SSHException(
+2025-01-21 13:18:14,215 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:18:14,215 - 
+2025-01-21 13:18:16,179 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:18:16,179 - Traceback (most recent call last):
+2025-01-21 13:18:16,179 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:18:16,179 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:18:16,179 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:16,179 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:18:16,179 -     buf += self._read_timeout(timeout)
+2025-01-21 13:18:16,179 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:16,179 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:18:16,179 -     raise socket.timeout()
+2025-01-21 13:18:16,179 - TimeoutError
+2025-01-21 13:18:16,179 - 
+2025-01-21 13:18:16,179 - During handling of the above exception, another exception occurred:
+2025-01-21 13:18:16,179 - 
+2025-01-21 13:18:16,179 - Traceback (most recent call last):
+2025-01-21 13:18:16,179 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:18:16,179 -     self._check_banner()
+2025-01-21 13:18:16,179 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:18:16,179 -     raise SSHException(
+2025-01-21 13:18:16,179 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:18:16,179 - 
+2025-01-21 13:18:16,210 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:18:16,210 - Traceback (most recent call last):
+2025-01-21 13:18:16,210 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:18:16,210 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:18:16,210 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:16,210 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:18:16,210 -     buf += self._read_timeout(timeout)
+2025-01-21 13:18:16,210 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:16,210 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:18:16,210 -     raise socket.timeout()
+2025-01-21 13:18:16,210 - TimeoutError
+2025-01-21 13:18:16,210 - 
+2025-01-21 13:18:16,210 - During handling of the above exception, another exception occurred:
+2025-01-21 13:18:16,210 - 
+2025-01-21 13:18:16,210 - Traceback (most recent call last):
+2025-01-21 13:18:16,210 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:18:16,210 -     self._check_banner()
+2025-01-21 13:18:16,210 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:18:16,225 -     raise SSHException(
+2025-01-21 13:18:16,225 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:18:16,225 - 
+2025-01-21 13:18:26,256 - Vps open on: ducvps.servegame.com:6452
+2025-01-21 13:18:32,287 - Vps open on: ducvps.servegame.com:6741
+2025-01-21 13:18:36,241 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:18:36,248 - Traceback (most recent call last):
+2025-01-21 13:18:36,248 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:18:36,248 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:18:36,248 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:36,248 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:18:36,249 -     buf += self._read_timeout(timeout)
+2025-01-21 13:18:36,249 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:36,249 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:18:36,249 -     raise socket.timeout()
+2025-01-21 13:18:36,249 - TimeoutError
+2025-01-21 13:18:36,249 - 
+2025-01-21 13:18:36,249 - During handling of the above exception, another exception occurred:
+2025-01-21 13:18:36,249 - 
+2025-01-21 13:18:36,249 - Traceback (most recent call last):
+2025-01-21 13:18:36,249 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:18:36,249 -     self._check_banner()
+2025-01-21 13:18:36,249 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:18:36,249 -     raise SSHException(
+2025-01-21 13:18:36,249 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:18:36,249 - 
+2025-01-21 13:18:42,338 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:18:42,338 - Traceback (most recent call last):
+2025-01-21 13:18:42,338 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:18:42,338 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:18:42,338 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:42,338 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:18:42,338 -     buf += self._read_timeout(timeout)
+2025-01-21 13:18:42,338 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:18:42,338 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:18:42,338 -     raise socket.timeout()
+2025-01-21 13:18:42,338 - TimeoutError
+2025-01-21 13:18:42,338 - 
+2025-01-21 13:18:42,338 - During handling of the above exception, another exception occurred:
+2025-01-21 13:18:42,338 - 
+2025-01-21 13:18:42,338 - Traceback (most recent call last):
+2025-01-21 13:18:42,338 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:18:42,338 -     self._check_banner()
+2025-01-21 13:18:42,338 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:18:42,338 -     raise SSHException(
+2025-01-21 13:18:42,338 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:18:42,338 - 
+2025-01-21 13:20:20,288 - Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-21 13:20:20,291 - Traceback (most recent call last):
+2025-01-21 13:20:20,292 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:20:20,292 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:20:20,292 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:20:20,292 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:20:20,292 -     buf += self._read_timeout(timeout)
+2025-01-21 13:20:20,292 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:20:20,293 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+2025-01-21 13:20:20,293 -     x = self.__socket.recv(128)
+2025-01-21 13:20:20,293 -         ^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:20:20,293 - ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-21 13:20:20,293 - 
+2025-01-21 13:20:20,293 - During handling of the above exception, another exception occurred:
+2025-01-21 13:20:20,293 - 
+2025-01-21 13:20:20,293 - Traceback (most recent call last):
+2025-01-21 13:20:20,293 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:20:20,293 -     self._check_banner()
+2025-01-21 13:20:20,293 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:20:20,294 -     raise SSHException(
+2025-01-21 13:20:20,294 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-21 13:20:20,294 - 
+2025-01-21 13:20:20,294 - Vps open on: ducvps.servegame.com:12345
+2025-01-21 13:27:27,446 - Vps open on: ducvps.servegame.com:33333
+2025-01-21 13:27:27,462 - Vps open on: ducvps.servegame.com:33336
+2025-01-21 13:27:27,618 - Vps open on: ducvps.servegame.com:33339
+2025-01-21 13:27:37,158 - Vps open on: ducvps.servegame.com:33814
+2025-01-21 13:27:37,158 - Vps open on: ducvps.servegame.com:33812
+2025-01-21 13:27:37,439 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:27:37,439 - Traceback (most recent call last):
+2025-01-21 13:27:37,439 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:27:37,439 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:27:37,439 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:37,439 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:27:37,439 -     buf += self._read_timeout(timeout)
+2025-01-21 13:27:37,439 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:37,439 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:27:37,439 -     raise socket.timeout()
+2025-01-21 13:27:37,439 - TimeoutError
+2025-01-21 13:27:37,439 - 
+2025-01-21 13:27:37,439 - During handling of the above exception, another exception occurred:
+2025-01-21 13:27:37,439 - 
+2025-01-21 13:27:37,439 - Traceback (most recent call last):
+2025-01-21 13:27:37,439 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:27:37,439 -     self._check_banner()
+2025-01-21 13:27:37,439 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:27:37,439 -     raise SSHException(
+2025-01-21 13:27:37,439 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:27:37,439 - 
+2025-01-21 13:27:37,455 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:27:37,455 - Traceback (most recent call last):
+2025-01-21 13:27:37,455 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:27:37,455 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:27:37,455 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:37,455 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:27:37,455 -     buf += self._read_timeout(timeout)
+2025-01-21 13:27:37,455 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:37,455 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:27:37,455 -     raise socket.timeout()
+2025-01-21 13:27:37,455 - TimeoutError
+2025-01-21 13:27:37,455 - 
+2025-01-21 13:27:37,455 - During handling of the above exception, another exception occurred:
+2025-01-21 13:27:37,455 - 
+2025-01-21 13:27:37,455 - Traceback (most recent call last):
+2025-01-21 13:27:37,455 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:27:37,455 -     self._check_banner()
+2025-01-21 13:27:37,455 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:27:37,455 -     raise SSHException(
+2025-01-21 13:27:37,455 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:27:37,455 - 
+2025-01-21 13:27:37,615 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:27:37,615 - Traceback (most recent call last):
+2025-01-21 13:27:37,615 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:27:37,615 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:27:37,615 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:37,615 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:27:37,615 -     buf += self._read_timeout(timeout)
+2025-01-21 13:27:37,615 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:37,615 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:27:37,615 -     raise socket.timeout()
+2025-01-21 13:27:37,615 - TimeoutError
+2025-01-21 13:27:37,615 - 
+2025-01-21 13:27:37,615 - During handling of the above exception, another exception occurred:
+2025-01-21 13:27:37,615 - 
+2025-01-21 13:27:37,615 - Traceback (most recent call last):
+2025-01-21 13:27:37,615 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:27:37,615 -     self._check_banner()
+2025-01-21 13:27:37,615 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:27:37,615 -     raise SSHException(
+2025-01-21 13:27:37,615 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:27:37,615 - 
+2025-01-21 13:27:39,089 - Vps open on: ducvps.servegame.com:33894
+2025-01-21 13:27:39,120 - Vps open on: ducvps.servegame.com:33895
+2025-01-21 13:27:41,107 - Vps open on: ducvps.servegame.com:33999
+2025-01-21 13:27:47,141 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:27:47,143 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:27:47,143 - Traceback (most recent call last):
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:27:47,143 - Traceback (most recent call last):
+2025-01-21 13:27:47,143 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:27:47,143 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:47,143 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:27:47,143 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:47,143 -     buf += self._read_timeout(timeout)
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:27:47,143 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:47,143 -     buf += self._read_timeout(timeout)
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:27:47,143 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:47,143 -     raise socket.timeout()
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:27:47,143 - TimeoutError
+2025-01-21 13:27:47,143 -     raise socket.timeout()
+2025-01-21 13:27:47,143 - 
+2025-01-21 13:27:47,143 - TimeoutError
+2025-01-21 13:27:47,143 - During handling of the above exception, another exception occurred:
+2025-01-21 13:27:47,143 - 
+2025-01-21 13:27:47,143 - 
+2025-01-21 13:27:47,143 - During handling of the above exception, another exception occurred:
+2025-01-21 13:27:47,143 - Traceback (most recent call last):
+2025-01-21 13:27:47,143 - 
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:27:47,143 - Traceback (most recent call last):
+2025-01-21 13:27:47,143 -     self._check_banner()
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:27:47,143 -     self._check_banner()
+2025-01-21 13:27:47,143 -     raise SSHException(
+2025-01-21 13:27:47,143 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:27:47,143 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:27:47,143 -     raise SSHException(
+2025-01-21 13:27:47,143 - 
+2025-01-21 13:27:47,143 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:27:47,143 - 
+2025-01-21 13:27:49,038 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:27:49,038 - Traceback (most recent call last):
+2025-01-21 13:27:49,038 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:27:49,038 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:27:49,038 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:49,038 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:27:49,038 -     buf += self._read_timeout(timeout)
+2025-01-21 13:27:49,038 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:49,038 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:27:49,038 -     raise socket.timeout()
+2025-01-21 13:27:49,038 - TimeoutError
+2025-01-21 13:27:49,038 - 
+2025-01-21 13:27:49,038 - During handling of the above exception, another exception occurred:
+2025-01-21 13:27:49,038 - 
+2025-01-21 13:27:49,038 - Traceback (most recent call last):
+2025-01-21 13:27:49,038 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:27:49,038 -     self._check_banner()
+2025-01-21 13:27:49,038 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:27:49,038 -     raise SSHException(
+2025-01-21 13:27:49,038 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:27:49,038 - 
+2025-01-21 13:27:49,132 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:27:49,132 - Traceback (most recent call last):
+2025-01-21 13:27:49,132 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:27:49,132 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:27:49,132 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:49,132 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:27:49,132 -     buf += self._read_timeout(timeout)
+2025-01-21 13:27:49,132 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:49,132 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:27:49,132 -     raise socket.timeout()
+2025-01-21 13:27:49,132 - TimeoutError
+2025-01-21 13:27:49,132 - 
+2025-01-21 13:27:49,132 - During handling of the above exception, another exception occurred:
+2025-01-21 13:27:49,132 - 
+2025-01-21 13:27:49,132 - Traceback (most recent call last):
+2025-01-21 13:27:49,132 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:27:49,132 -     self._check_banner()
+2025-01-21 13:27:49,132 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:27:49,132 -     raise SSHException(
+2025-01-21 13:27:49,132 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:27:49,132 - 
+2025-01-21 13:27:51,186 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:27:51,186 - Traceback (most recent call last):
+2025-01-21 13:27:51,186 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:27:51,186 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:27:51,186 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:51,186 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:27:51,186 -     buf += self._read_timeout(timeout)
+2025-01-21 13:27:51,186 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:27:51,186 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:27:51,186 -     raise socket.timeout()
+2025-01-21 13:27:51,186 - TimeoutError
+2025-01-21 13:27:51,186 - 
+2025-01-21 13:27:51,186 - During handling of the above exception, another exception occurred:
+2025-01-21 13:27:51,186 - 
+2025-01-21 13:27:51,186 - Traceback (most recent call last):
+2025-01-21 13:27:51,186 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:27:51,186 -     self._check_banner()
+2025-01-21 13:27:51,186 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:27:51,186 -     raise SSHException(
+2025-01-21 13:27:51,186 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:27:51,186 - 
+2025-01-21 13:28:59,482 - Vps open on: ducvps.servegame.com:37891
+2025-01-21 13:29:09,465 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:29:09,465 - Traceback (most recent call last):
+2025-01-21 13:29:09,465 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:29:09,465 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:29:09,465 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:29:09,465 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:29:09,465 -     buf += self._read_timeout(timeout)
+2025-01-21 13:29:09,465 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:29:09,465 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:29:09,465 -     raise socket.timeout()
+2025-01-21 13:29:09,465 - TimeoutError
+2025-01-21 13:29:09,465 - 
+2025-01-21 13:29:09,465 - During handling of the above exception, another exception occurred:
+2025-01-21 13:29:09,465 - 
+2025-01-21 13:29:09,465 - Traceback (most recent call last):
+2025-01-21 13:29:09,465 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:29:09,465 -     self._check_banner()
+2025-01-21 13:29:09,465 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:29:09,465 -     raise SSHException(
+2025-01-21 13:29:09,465 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:29:09,465 - 
+2025-01-21 13:29:29,614 - Vps open on: ducvps.servegame.com:39391
+2025-01-21 13:29:39,605 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:29:39,605 - Traceback (most recent call last):
+2025-01-21 13:29:39,605 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:29:39,605 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:29:39,605 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:29:39,605 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:29:39,605 -     buf += self._read_timeout(timeout)
+2025-01-21 13:29:39,605 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:29:39,605 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:29:39,605 -     raise socket.timeout()
+2025-01-21 13:29:39,605 - TimeoutError
+2025-01-21 13:29:39,605 - 
+2025-01-21 13:29:39,605 - During handling of the above exception, another exception occurred:
+2025-01-21 13:29:39,605 - 
+2025-01-21 13:29:39,605 - Traceback (most recent call last):
+2025-01-21 13:29:39,605 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:29:39,605 -     self._check_banner()
+2025-01-21 13:29:39,605 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:29:39,605 -     raise SSHException(
+2025-01-21 13:29:39,605 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:29:39,605 - 
+2025-01-21 13:31:05,343 - Vps open on: ducvps.servegame.com:44141
+2025-01-21 13:31:11,416 - Vps open on: ducvps.servegame.com:44444
+2025-01-21 13:31:15,288 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:31:15,290 - Traceback (most recent call last):
+2025-01-21 13:31:15,290 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:31:15,290 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:31:15,290 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:15,301 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:31:15,301 -     buf += self._read_timeout(timeout)
+2025-01-21 13:31:15,301 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:15,301 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:31:15,302 -     raise socket.timeout()
+2025-01-21 13:31:15,302 - TimeoutError
+2025-01-21 13:31:15,302 - 
+2025-01-21 13:31:15,302 - During handling of the above exception, another exception occurred:
+2025-01-21 13:31:15,303 - 
+2025-01-21 13:31:15,303 - Traceback (most recent call last):
+2025-01-21 13:31:15,303 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:31:15,303 -     self._check_banner()
+2025-01-21 13:31:15,304 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:31:15,304 -     raise SSHException(
+2025-01-21 13:31:15,305 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:31:15,305 - 
+2025-01-21 13:31:21,413 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:31:21,413 - Traceback (most recent call last):
+2025-01-21 13:31:21,413 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:31:21,413 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:31:21,413 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:21,413 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:31:21,413 -     buf += self._read_timeout(timeout)
+2025-01-21 13:31:21,413 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:21,413 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:31:21,413 -     raise socket.timeout()
+2025-01-21 13:31:21,413 - TimeoutError
+2025-01-21 13:31:21,413 - 
+2025-01-21 13:31:21,413 - During handling of the above exception, another exception occurred:
+2025-01-21 13:31:21,413 - 
+2025-01-21 13:31:21,413 - Traceback (most recent call last):
+2025-01-21 13:31:21,413 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:31:21,413 -     self._check_banner()
+2025-01-21 13:31:21,413 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:31:21,413 -     raise SSHException(
+2025-01-21 13:31:21,413 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:31:21,413 - 
+2025-01-21 13:31:29,315 - Vps open on: ducvps.servegame.com:45321
+2025-01-21 13:31:31,502 - Vps open on: ducvps.servegame.com:45451
+2025-01-21 13:31:39,300 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:31:39,304 - Traceback (most recent call last):
+2025-01-21 13:31:39,304 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:31:39,304 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:31:39,304 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:39,304 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:31:39,304 -     buf += self._read_timeout(timeout)
+2025-01-21 13:31:39,304 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:39,304 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:31:39,304 -     raise socket.timeout()
+2025-01-21 13:31:39,304 - TimeoutError
+2025-01-21 13:31:39,304 - 
+2025-01-21 13:31:39,304 - During handling of the above exception, another exception occurred:
+2025-01-21 13:31:39,304 - 
+2025-01-21 13:31:39,304 - Traceback (most recent call last):
+2025-01-21 13:31:39,304 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:31:39,304 -     self._check_banner()
+2025-01-21 13:31:39,304 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:31:39,304 -     raise SSHException(
+2025-01-21 13:31:39,304 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:31:39,304 - 
+2025-01-21 13:31:41,504 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:31:41,504 - Traceback (most recent call last):
+2025-01-21 13:31:41,504 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:31:41,504 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:31:41,504 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:41,504 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:31:41,504 -     buf += self._read_timeout(timeout)
+2025-01-21 13:31:41,504 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:41,504 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:31:41,504 -     raise socket.timeout()
+2025-01-21 13:31:41,504 - TimeoutError
+2025-01-21 13:31:41,504 - 
+2025-01-21 13:31:41,504 - During handling of the above exception, another exception occurred:
+2025-01-21 13:31:41,504 - 
+2025-01-21 13:31:41,504 - Traceback (most recent call last):
+2025-01-21 13:31:41,504 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:31:41,504 -     self._check_banner()
+2025-01-21 13:31:41,504 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:31:41,504 -     raise SSHException(
+2025-01-21 13:31:41,504 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:31:41,504 - 
+2025-01-21 13:31:46,734 - Vps open on: ducvps.servegame.com:46211
+2025-01-21 13:31:56,698 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:31:56,698 - Traceback (most recent call last):
+2025-01-21 13:31:56,698 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:31:56,698 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:31:56,698 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:56,698 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:31:56,698 -     buf += self._read_timeout(timeout)
+2025-01-21 13:31:56,698 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:31:56,698 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:31:56,698 -     raise socket.timeout()
+2025-01-21 13:31:56,698 - TimeoutError
+2025-01-21 13:31:56,698 - 
+2025-01-21 13:31:56,698 - During handling of the above exception, another exception occurred:
+2025-01-21 13:31:56,698 - 
+2025-01-21 13:31:56,698 - Traceback (most recent call last):
+2025-01-21 13:31:56,698 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:31:56,698 -     self._check_banner()
+2025-01-21 13:31:56,698 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:31:56,698 -     raise SSHException(
+2025-01-21 13:31:56,698 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:31:56,698 - 
+2025-01-21 13:32:55,839 - Vps open on: ducvps.servegame.com:49667
+2025-01-21 13:32:55,839 - Vps open on: ducvps.servegame.com:49666
+2025-01-21 13:32:55,949 - Vps open on: ducvps.servegame.com:49668
+2025-01-21 13:32:55,949 - Vps open on: ducvps.servegame.com:49665
+2025-01-21 13:32:55,949 - Vps open on: ducvps.servegame.com:49664
+2025-01-21 13:32:56,062 - Vps open on: ducvps.servegame.com:49670
+2025-01-21 13:33:05,852 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:33:05,852 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:33:05,852 - Traceback (most recent call last):
+2025-01-21 13:33:05,852 - Traceback (most recent call last):
+2025-01-21 13:33:05,852 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:33:05,852 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:33:05,852 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:33:05,852 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:33:05,852 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,852 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,852 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:33:05,852 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:33:05,852 -     buf += self._read_timeout(timeout)
+2025-01-21 13:33:05,852 -     buf += self._read_timeout(timeout)
+2025-01-21 13:33:05,852 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,852 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,852 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:33:05,852 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:33:05,852 -     raise socket.timeout()
+2025-01-21 13:33:05,852 -     raise socket.timeout()
+2025-01-21 13:33:05,852 - TimeoutError
+2025-01-21 13:33:05,852 - TimeoutError
+2025-01-21 13:33:05,868 - 
+2025-01-21 13:33:05,868 - 
+2025-01-21 13:33:05,868 - During handling of the above exception, another exception occurred:
+2025-01-21 13:33:05,868 - During handling of the above exception, another exception occurred:
+2025-01-21 13:33:05,868 - 
+2025-01-21 13:33:05,868 - 
+2025-01-21 13:33:05,868 - Traceback (most recent call last):
+2025-01-21 13:33:05,868 - Traceback (most recent call last):
+2025-01-21 13:33:05,868 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:33:05,868 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:33:05,868 -     self._check_banner()
+2025-01-21 13:33:05,868 -     self._check_banner()
+2025-01-21 13:33:05,868 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:33:05,868 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:33:05,868 -     raise SSHException(
+2025-01-21 13:33:05,868 -     raise SSHException(
+2025-01-21 13:33:05,868 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:33:05,868 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:33:05,868 - 
+2025-01-21 13:33:05,868 - 
+2025-01-21 13:33:05,962 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:33:05,962 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:33:05,962 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:33:05,962 - Traceback (most recent call last):
+2025-01-21 13:33:05,962 - Traceback (most recent call last):
+2025-01-21 13:33:05,962 - Traceback (most recent call last):
+2025-01-21 13:33:05,962 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:33:05,962 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:33:05,962 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:33:05,962 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:33:05,962 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:33:05,962 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:33:05,962 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,962 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,962 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:33:05,977 -     buf += self._read_timeout(timeout)
+2025-01-21 13:33:05,977 -     buf += self._read_timeout(timeout)
+2025-01-21 13:33:05,977 -     buf += self._read_timeout(timeout)
+2025-01-21 13:33:05,977 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,977 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,977 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:33:05,977 -     raise socket.timeout()
+2025-01-21 13:33:05,977 -     raise socket.timeout()
+2025-01-21 13:33:05,977 -     raise socket.timeout()
+2025-01-21 13:33:05,977 - TimeoutError
+2025-01-21 13:33:05,977 - TimeoutError
+2025-01-21 13:33:05,977 - TimeoutError
+2025-01-21 13:33:05,977 - 
+2025-01-21 13:33:05,977 - 
+2025-01-21 13:33:05,977 - 
+2025-01-21 13:33:05,977 - During handling of the above exception, another exception occurred:
+2025-01-21 13:33:05,977 - During handling of the above exception, another exception occurred:
+2025-01-21 13:33:05,977 - During handling of the above exception, another exception occurred:
+2025-01-21 13:33:05,977 - 
+2025-01-21 13:33:05,977 - 
+2025-01-21 13:33:05,977 - 
+2025-01-21 13:33:05,977 - Traceback (most recent call last):
+2025-01-21 13:33:05,977 - Traceback (most recent call last):
+2025-01-21 13:33:05,977 - Traceback (most recent call last):
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:33:05,977 -     self._check_banner()
+2025-01-21 13:33:05,977 -     self._check_banner()
+2025-01-21 13:33:05,977 -     self._check_banner()
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:33:05,977 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:33:05,993 -     raise SSHException(
+2025-01-21 13:33:05,993 -     raise SSHException(
+2025-01-21 13:33:05,993 -     raise SSHException(
+2025-01-21 13:33:05,993 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:33:05,993 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:33:05,993 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:33:05,993 - 
+2025-01-21 13:33:05,993 - 
+2025-01-21 13:33:05,993 - 
+2025-01-21 13:33:06,071 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:33:06,071 - Traceback (most recent call last):
+2025-01-21 13:33:06,071 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:33:06,071 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:33:06,071 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:06,071 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:33:06,071 -     buf += self._read_timeout(timeout)
+2025-01-21 13:33:06,071 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:33:06,071 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:33:06,071 -     raise socket.timeout()
+2025-01-21 13:33:06,071 - TimeoutError
+2025-01-21 13:33:06,071 - 
+2025-01-21 13:33:06,071 - During handling of the above exception, another exception occurred:
+2025-01-21 13:33:06,071 - 
+2025-01-21 13:33:06,071 - Traceback (most recent call last):
+2025-01-21 13:33:06,071 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:33:06,071 -     self._check_banner()
+2025-01-21 13:33:06,071 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:33:06,071 -     raise SSHException(
+2025-01-21 13:33:06,071 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:33:06,071 - 
+2025-01-21 13:33:50,082 - Vps open on: ducvps.servegame.com:52311
+2025-01-21 13:34:00,095 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:34:00,097 - Traceback (most recent call last):
+2025-01-21 13:34:00,097 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:34:00,098 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:34:00,098 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:34:00,098 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:34:00,098 -     buf += self._read_timeout(timeout)
+2025-01-21 13:34:00,098 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:34:00,098 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:34:00,098 -     raise socket.timeout()
+2025-01-21 13:34:00,098 - TimeoutError
+2025-01-21 13:34:00,098 - 
+2025-01-21 13:34:00,098 - During handling of the above exception, another exception occurred:
+2025-01-21 13:34:00,098 - 
+2025-01-21 13:34:00,098 - Traceback (most recent call last):
+2025-01-21 13:34:00,098 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:34:00,098 -     self._check_banner()
+2025-01-21 13:34:00,098 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:34:00,098 -     raise SSHException(
+2025-01-21 13:34:00,098 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:34:00,099 - 
+2025-01-21 13:34:10,776 - Vps open on: ducvps.servegame.com:53388
+2025-01-21 13:34:10,826 - Vps open on: ducvps.servegame.com:53389
+2025-01-21 13:34:20,840 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:34:20,841 - Exception (client): Error reading SSH protocol banner
+2025-01-21 13:34:20,846 - Traceback (most recent call last):
+2025-01-21 13:34:20,846 - Traceback (most recent call last):
+2025-01-21 13:34:20,847 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:34:20,847 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2025-01-21 13:34:20,847 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:34:20,847 -     buf = self.packetizer.readline(timeout)
+2025-01-21 13:34:20,848 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:34:20,849 -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:34:20,849 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:34:20,849 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2025-01-21 13:34:20,849 -     buf += self._read_timeout(timeout)
+2025-01-21 13:34:20,849 -     buf += self._read_timeout(timeout)
+2025-01-21 13:34:20,850 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:34:20,850 -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-21 13:34:20,850 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:34:20,850 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2025-01-21 13:34:20,850 -     raise socket.timeout()
+2025-01-21 13:34:20,851 -     raise socket.timeout()
+2025-01-21 13:34:20,851 - TimeoutError
+2025-01-21 13:34:20,851 - TimeoutError
+2025-01-21 13:34:20,851 - 
+2025-01-21 13:34:20,851 - 
+2025-01-21 13:34:20,852 - During handling of the above exception, another exception occurred:
+2025-01-21 13:34:20,852 - During handling of the above exception, another exception occurred:
+2025-01-21 13:34:20,852 - 
+2025-01-21 13:34:20,852 - 
+2025-01-21 13:34:20,852 - Traceback (most recent call last):
+2025-01-21 13:34:20,852 - Traceback (most recent call last):
+2025-01-21 13:34:20,853 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:34:20,853 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2025-01-21 13:34:20,853 -     self._check_banner()
+2025-01-21 13:34:20,853 -     self._check_banner()
+2025-01-21 13:34:20,853 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:34:20,853 -   File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2025-01-21 13:34:20,853 -     raise SSHException(
+2025-01-21 13:34:20,853 -     raise SSHException(
+2025-01-21 13:34:20,853 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:34:20,854 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2025-01-21 13:34:20,854 - 
+2025-01-21 13:34:20,854 - 
+2025-01-21 13:38:12,568 - Scanning completed for ducvps.servegame.com. Success: 0, Open: 34, Closed: 61502
