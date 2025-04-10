@@ -7,5 +7,3 @@ b = sorted(list(map(int, s.split())))
 n = b[m - 1] - b[0]  
 
 print(n)
-
-
